@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE9064C816D7193D00132365 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9064C716D7193D00132365 /* UIKit.framework */; };
+		DE9064CA16D7193D00132365 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9064C916D7193D00132365 /* Foundation.framework */; };
+		DE9064CC16D7193D00132365 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9064CB16D7193D00132365 /* CoreGraphics.framework */; };
+		DE9064D216D7193D00132365 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DE9064D016D7193D00132365 /* InfoPlist.strings */; };
+		DE9064D416D7193D00132365 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9064D316D7193D00132365 /* main.m */; };
+		DE9064D816D7193D00132365 /* PolygonsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9064D716D7193D00132365 /* PolygonsAppDelegate.m */; };
+		DE9064DA16D7193D00132365 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9064D916D7193D00132365 /* Default.png */; };
+		DE9064DC16D7193D00132365 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9064DB16D7193D00132365 /* Default@2x.png */; };
+		DE9064DE16D7193D00132365 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE9064DD16D7193D00132365 /* Default-568h@2x.png */; };
+		DE9064E116D7193D00132365 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE9064DF16D7193D00132365 /* MainStoryboard.storyboard */; };
+		DE9064E416D7193D00132365 /* PolygonsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9064E316D7193D00132365 /* PolygonsViewController.m */; };
+		DE9064EC16D71C4B00132365 /* PolygonView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9064EB16D71C4B00132365 /* PolygonView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE9064C416D7193D00132365 /* Polygons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Polygons.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE9064C716D7193D00132365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DE9064C916D7193D00132365 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DE9064CB16D7193D00132365 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DE9064CF16D7193D00132365 /* Polygons-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Polygons-Info.plist"; sourceTree = "<group>"; };
+		DE9064D116D7193D00132365 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DE9064D316D7193D00132365 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DE9064D516D7193D00132365 /* Polygons-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Polygons-Prefix.pch"; sourceTree = "<group>"; };
+		DE9064D616D7193D00132365 /* PolygonsAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PolygonsAppDelegate.h; sourceTree = "<group>"; };
+		DE9064D716D7193D00132365 /* PolygonsAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PolygonsAppDelegate.m; sourceTree = "<group>"; };
+		DE9064D916D7193D00132365 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DE9064DB16D7193D00132365 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DE9064DD16D7193D00132365 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DE9064E016D7193D00132365 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DE9064E216D7193D00132365 /* PolygonsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PolygonsViewController.h; sourceTree = "<group>"; };
+		DE9064E316D7193D00132365 /* PolygonsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PolygonsViewController.m; sourceTree = "<group>"; };
+		DE9064EA16D71C4B00132365 /* PolygonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PolygonView.h; sourceTree = "<group>"; };
+		DE9064EB16D71C4B00132365 /* PolygonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PolygonView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE9064C116D7193D00132365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9064C816D7193D00132365 /* UIKit.framework in Frameworks */,
+				DE9064CA16D7193D00132365 /* Foundation.framework in Frameworks */,
+				DE9064CC16D7193D00132365 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE9064BB16D7193D00132365 = {
+			isa = PBXGroup;
+			children = (
+				DE9064CD16D7193D00132365 /* Polygons */,
+				DE9064C616D7193D00132365 /* Frameworks */,
+				DE9064C516D7193D00132365 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE9064C516D7193D00132365 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE9064C416D7193D00132365 /* Polygons.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE9064C616D7193D00132365 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE9064C716D7193D00132365 /* UIKit.framework */,
+				DE9064C916D7193D00132365 /* Foundation.framework */,
+				DE9064CB16D7193D00132365 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE9064CD16D7193D00132365 /* Polygons */ = {
+			isa = PBXGroup;
+			children = (
+				DE9064DF16D7193D00132365 /* MainStoryboard.storyboard */,
+				DE9064E216D7193D00132365 /* PolygonsViewController.h */,
+				DE9064E316D7193D00132365 /* PolygonsViewController.m */,
+				DE9064EA16D71C4B00132365 /* PolygonView.h */,
+				DE9064EB16D71C4B00132365 /* PolygonView.m */,
+				DE9064CE16D7193D00132365 /* Supporting Files */,
+			);
+			path = Polygons;
+			sourceTree = "<group>";
+		};
+		DE9064CE16D7193D00132365 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DE9064D616D7193D00132365 /* PolygonsAppDelegate.h */,
+				DE9064D716D7193D00132365 /* PolygonsAppDelegate.m */,
+				DE9064CF16D7193D00132365 /* Polygons-Info.plist */,
+				DE9064D016D7193D00132365 /* InfoPlist.strings */,
+				DE9064D316D7193D00132365 /* main.m */,
+				DE9064D516D7193D00132365 /* Polygons-Prefix.pch */,
+				DE9064D916D7193D00132365 /* Default.png */,
+				DE9064DB16D7193D00132365 /* Default@2x.png */,
+				DE9064DD16D7193D00132365 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE9064C316D7193D00132365 /* Polygons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE9064E716D7193D00132365 /* Build configuration list for PBXNativeTarget "Polygons" */;
+			buildPhases = (
+				DE9064C016D7193D00132365 /* Sources */,
+				DE9064C116D7193D00132365 /* Frameworks */,
+				DE9064C216D7193D00132365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Polygons;
+			productName = Polygons;
+			productReference = DE9064C416D7193D00132365 /* Polygons.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE9064BC16D7193D00132365 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Polygons;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Spencer McWilliams";
+			};
+			buildConfigurationList = DE9064BF16D7193D00132365 /* Build configuration list for PBXProject "Polygons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DE9064BB16D7193D00132365;
+			productRefGroup = DE9064C516D7193D00132365 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE9064C316D7193D00132365 /* Polygons */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE9064C216D7193D00132365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9064D216D7193D00132365 /* InfoPlist.strings in Resources */,
+				DE9064DA16D7193D00132365 /* Default.png in Resources */,
+				DE9064DC16D7193D00132365 /* Default@2x.png in Resources */,
+				DE9064DE16D7193D00132365 /* Default-568h@2x.png in Resources */,
+				DE9064E116D7193D00132365 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE9064C016D7193D00132365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE9064D416D7193D00132365 /* main.m in Sources */,
+				DE9064D816D7193D00132365 /* PolygonsAppDelegate.m in Sources */,
+				DE9064E416D7193D00132365 /* PolygonsViewController.m in Sources */,
+				DE9064EC16D71C4B00132365 /* PolygonView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DE9064D016D7193D00132365 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE9064D116D7193D00132365 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DE9064DF16D7193D00132365 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE9064E016D7193D00132365 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE9064E516D7193D00132365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DE9064E616D7193D00132365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE9064E816D7193D00132365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Polygons/Polygons-Prefix.pch";
+				INFOPLIST_FILE = "Polygons/Polygons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DE9064E916D7193D00132365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Polygons/Polygons-Prefix.pch";
+				INFOPLIST_FILE = "Polygons/Polygons-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE9064BF16D7193D00132365 /* Build configuration list for PBXProject "Polygons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9064E516D7193D00132365 /* Debug */,
+				DE9064E616D7193D00132365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE9064E716D7193D00132365 /* Build configuration list for PBXNativeTarget "Polygons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE9064E816D7193D00132365 /* Debug */,
+				DE9064E916D7193D00132365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE9064BC16D7193D00132365 /* Project object */;
+}

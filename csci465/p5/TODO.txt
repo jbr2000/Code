@@ -1,0 +1,23 @@
+X: Call the application img.  Put it in your 465 repository in 465/img.  Host it at YOUR_SERVER/img.
+
+X: Add a string name field to the Devise User object.  Require the user fill in the name field when signing up.
+
+-: Users who are NOT signed in, should be given links to sign-in/sign-up and shown a list of all public images (those marked as public by the owner).  All other operations require the user to be signed in.
+
+X:  Use the Devise gem to provide user authentication (sign up/sign in/sign out).
+
+-: Allow a signed-in user to upload any number of image files (I will test with .jpg, you can allow additional file formats including video and sound).  The user that uploads an image will be consider the image's owner.  
+
+-: Provide an interface where the signed-in user can view all her images, all public images, and all private images she has access to.
+
+-: Allow the owner of an image to mark it as public (all users can see it) or private.  Allow the user to edit the public/private flag.
+
+-: Allow the user to click on an image to view that image in its own page.  On this page, show the name of the owner and all the tags associated with the image.  Also on this page, allow the owner of an image to add new tags and edit and/or delete existing tags.  
+
+-: Allow the owner of an image that is marked as private to allow access to any number of existing users.  Use a drop-down menu so the user only sees valid users (show both name and email).  Allow the owner of an image to remove a specific user's access to a private image.
+
+-: Allow the owner of an image to edit the image and change the public/private and upload a different image.
+
+-: Provide an interface where the signed-in user can search images based on the owner's name and/or the image's tags.  The query results should only contain (1) images the user owns, (2) public images other users own, and (3) private images other users own to which the current user has been granted access.  This would be considered an additional feature.
+
+-: Provide a seeds file and the corresponding image files (use small image files).  Make sure the image files are in your git repository.

@@ -1,0 +1,2 @@
+module DoiServerHelper
+end

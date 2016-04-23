@@ -1,0 +1,11 @@
+- attendee = Attendee.where("event_id = ? AND user_id = ?", event.id, current_user.id).first!
+- flash[:attendee_id] = attendee.id
+- if attendee.status == 1
+  = link_to "Going", going_path, class: "btn btn-primary"
+  = link_to "Decline", decline_path, class: "btn btn-default"
+- elsif attendee.status == 2
+  = link_to "Going", going_path, class: "btn btn-default"
+  = link_to "Decline", decline_path, class: "btn btn-primary"
+- elsif attendee.status == 3
+  = link_to "Going", going_path, class: "btn btn-default"
+  = link_to "Decline", decline_path, class: "btn btn-default"

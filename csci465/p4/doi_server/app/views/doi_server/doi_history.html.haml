@@ -1,0 +1,9 @@
+%h1 DOI History
+- if @doi
+  %table
+    %th Added
+    %th URL
+    - @doi.urls.each do |u|
+      %tr
+        %td= u.created_at.strftime("%FT%R")
+        %td= u.url

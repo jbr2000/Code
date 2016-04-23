@@ -1,0 +1,23 @@
+.container
+  .jumbotron
+    %h1 DOI Server Home
+= form_tag('/doi', method: 'get') do
+  = text_field_tag 'doi_name'
+  <br/>
+  = submit_tag "Search"
+
+<br/>
+= button_to("New DOI", new_path, method: 'get')
+<br/>
+
+%h3 DOIs
+- if @dois.empty?
+  %p No DOIs!
+- else
+  %table
+    %th id
+    %th name
+    - @dois.each do |doi|
+      %tr
+        %td= doi.id.to_s
+        %td= doi.name.to_s

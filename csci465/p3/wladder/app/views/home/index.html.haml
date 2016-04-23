@@ -1,0 +1,22 @@
+.container
+  .jumbotron
+    %h1.text-center Word Ladder
+  .col-md-4.col-md-offset-4
+    = form_tag('/results', method: "get") do
+      = hidden_field_tag(:word_0, @word_0)
+      = label_tag nil, @word_0, class: "form-control"
+      <br />
+      = text_field_tag 'word_1', nil, class: "form-control"
+      <br />
+      = text_field_tag 'word_2', nil, class: "form-control"
+      <br />
+      = text_field_tag 'word_3', nil, class: "form-control"
+      <br />
+      = text_field_tag 'word_4', nil, class: "form-control"
+      <br />
+      = text_field_tag 'word_5', nil, class: "form-control"
+      <br />
+      = label_tag nil, @word_6, class: "form-control"
+      = hidden_field_tag(:word_6, @word_6)
+      <br />
+      = submit_tag "Submit", class: "btn btn-primary form-control"

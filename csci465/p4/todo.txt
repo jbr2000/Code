@@ -1,0 +1,7 @@
+X:  Call the application doi_server. Put it in your 465 repository in 465/doi_server. Host it at YOUR_SERVER/doi_server.
+X:  Allow users to look up the most recent URL associated with a DOI.
+X:  Allow users to create a new DOI by specifying a name, description, and initial URL.  Your system must generate a unique doi_string (the string could be numbers, letters, or a combination) for each doi.
+X:  Allow users to add a new URL to a DOI.  
+X:  Keep a history of the URLs associated with each DOI.  Each URL in the history must have a timestamp.
+X:  Allow users to view the description and URL history for any DOI (usually you only show the most recent URL; give the user a link to the entire history).
+X:  Include a db/seeds.rb file with a reasonably large dataset so I can migrate and seed your database.  (You can seed a empty database by placing seed code in db/seeds.rb and running $ rake db:seed after you have created the database using $ rake db:migrate.)

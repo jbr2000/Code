@@ -1,0 +1,7 @@
+.jumbotron.container
+  %h1.text-center Editing Event
+  .col-xs-8.col-xs-offset-2
+    = render 'form'
+
+    = link_to 'Show', @event
+    = link_to 'Back', events_path

@@ -1,0 +1,18 @@
+%h1 Editing Image
+= link_to(image_tag(root_url + "/images/" + @image.filename, size: "100x100", alt: @image.filename, class: 'img-rounded'), image_path(@image))
+
+%h2 Settings
+= render 'form'
+
+- if @image.public != 1
+  %h2 Privacy
+  %h3= notice
+  = render 'imageusers/form'
+
+%h2 Tags
+- if @image.tags.count == 0
+  .col-md-4.alert.alert-warning No Tags for this Image
+- @image.tags.each do |tag|
+  %tr
+    %td{:style => 'padding: 2px 5px'}
+      =tag.value

@@ -1,0 +1,18 @@
+%h1 DOI
+- if @doi
+  %p DOI: #{@doi.name}
+  %p Description: #{@doi.description}
+  - if @url
+    %p Most recent URL: &lt#{@url.url}&gt
+    = link_to('Doi\'s URL History', '/doi_history')
+    <br/>
+    <br/>
+    = form_tag('/add_url') do
+      = label_tag :url
+      = text_field_tag :url
+      <br/>
+      = submit_tag "Add URL to DOI"
+  - else
+    %p No URLs yet associated with this DOI!
+- else
+  %h3 DOI Not Found! &lt#{params[:doi_name]}&gt

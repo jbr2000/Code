@@ -1,0 +1,152 @@
+//---INITIALIZERS
+// initialize window settings 
+int window_x=40;
+int window_y=40;
+int window_width=800;
+int window_height=450;
+// animation declarations
+forward animation ball_animation(circle cur_ball);
+// initialize misc variables
+int i;
+int j;
+int p1_score=0;
+int p2_score=0;
+// initialize game objects
+textbox error_label(x=30, y=30, text="error");
+textbox p1_score_label(x=20, y=10, text=p1_score);
+textbox p2_score_label(x=750, y=10, text=p2_score);
+rectangle p1(x=10, y=180, w=10, h=100,
+             red=0, green=1, blue=0);
+rectangle p2(x=window_width-20, y=180, w=10, h=100,
+             red=0, green=0, blue=1);
+circle ball1(x=22, y=225, radius=5, animation_block=ball_animation,
+             red=0, green=1, blue=0);
+circle ball2(x=window_width-33, y=225, radius=5, animation_block=ball_animation, 
+             red=0, green=0, blue=1);
+rectangle bricks[10];
+// initialize window borders
+rectangle top_boundary(x= -1, y=window_height+1, w=window_width+2, h=1);
+rectangle bot_boundary(x= -1, y=-1, w=window_width+2, h=1);
+rectangle left_boundary(x= -1, y=-1, w=1, h=window_height+1);
+rectangle right_boundary(x= window_width+1, y=-1, w=1, h=window_height+2);
+
+
+//---INITIALIZATION BLOCK
+initialization {
+error_label.visible = 0;
+ball1.user_int = 10;
+ball1.user_int2 = random(5);
+// last player to hit ball
+ball1.user_int3 = 1;
+// identifier
+ball1.user_int4 = 1;
+
+ball2.user_int = -10;
+ball2.user_int2 = random(5);
+ball2.user_int3 = 2;
+ball2.user_int4 = 2;
+
+// level 1
+  j = random(10);
+  for(i=0; i<10; i+=1){
+    bricks[i].x=395;
+    bricks[i].y=23*i+150;
+    bricks[i].h=20;
+    bricks[i].w=10;
+    if(i == j){
+      bricks[i].red = 0.5;
+      bricks[i].blue = 0.5;
+      bricks[i].green = 0;
+      bricks[i].user_int = 1;
+    }
+  }
+}
+
+
+//---ANIMATION BLOCKS
+animation ball_animation(circle cur_ball){
+  if(cur_ball touches p1){
+    cur_ball.user_int3=1;
+    cur_ball.user_int=-cur_ball.user_int;
+  }
+  if(cur_ball touches p2){
+    cur_ball.user_int3=2;
+    cur_ball.user_int=-cur_ball.user_int;
+  }
+  if((cur_ball touches top_boundary)||(cur_ball touches bot_boundary))
+    cur_ball.user_int2=-cur_ball.user_int2;
+  if((cur_ball touches right_boundary)||(cur_ball touches left_boundary)){
+    if(cur_ball touches right_boundary){
+      p1_score += 100;
+      p2_score -= 50;
+    }
+    else if(cur_ball touches left_boundary){
+      p1_score -= 50;
+      p2_score += 100;
+    }
+    // reset the ball
+    if(cur_ball.user_int4 == 1){
+      cur_ball.user_int3=1;
+      cur_ball.x=20;
+      cur_ball.y=225;
+      cur_ball.user_int=10;
+      cur_ball.user_int2=random(5);
+      if(random(10) > 3)
+        cur_ball.user_int2=-cur_ball.user_int2;
+    }
+    else if(cur_ball.user_int4 == 2){
+      cur_ball.user_int3=2;
+      cur_ball.x=760;
+      cur_ball.y=225;
+      cur_ball.user_int=-10;
+      cur_ball.user_int2=random(5);
+      if(random(10) > 3)
+        cur_ball.user_int2=-cur_ball.user_int2;
+    }
+    else{
+      error_label.text = "cur_ball neither ball1 nor ball2";
+      error_label.visible = 1;
+    }
+  }
+  // if the ball hits a birck hide brick and change ball direction
+  for(i=0; i<10; i+=1){
+    if((bricks[i].visible == 1) && (cur_ball touches bricks[i])){
+      bricks[i].visible=0;
+      if(bricks[i].user_int == 1){
+        if(cur_ball.user_int3 == 1)
+          p1.h = 150;
+        else
+          p2.h = 150;
+      }
+      if(cur_ball.user_int3 == 1)
+        p1_score += 30;
+      else
+        p2_score += 30;
+      cur_ball.user_int=-cur_ball.user_int;
+      cur_ball.user_int2=-cur_ball.user_int2;
+    }
+  }
+  cur_ball.x += cur_ball.user_int;
+  cur_ball.y += cur_ball.user_int2;
+  p1_score_label.text=p1_score;
+  p2_score_label.text=p2_score;
+}
+
+
+//---EVENT HANDLERS
+on skey {
+  if(!p1 touches top_boundary)
+    p1.y += 45;
+}
+on dkey {
+  if(!p1 touches bot_boundary)
+    p1.y -= 45;
+}
+on rightarrow {
+  if(!p2 touches top_boundary)
+    p2.y += 45;
+}
+on leftarrow {
+  if(!p2 touches bot_boundary)
+    p2.y -= 45;
+}

@@ -1,0 +1,5 @@
+%nav.navbar.navbar-default
+  .container
+    -if user_signed_in?
+      .navbar-header.navbar-brand= link_to current_user.name, images_path
+      .navbar-btn.btn.btn-default.navbar-right= link_to 'sign-out', destroy_user_session_path, method: 'delete'

@@ -1,0 +1,45 @@
+= notice
+.page-header
+  %h4 EVENT DETAILS
+
+.container
+  .event-header
+    #event-info
+      %h1= @event.title
+      %p= @event.date_time.strftime('%b %d @ %H:%M')
+    .invitation-confirmation-container
+      - unless @attendee.empty?
+        = render 'attendees/invitation_block', :event => @event
+
+  = image_tag root_url + "/images/events/" + @event.id.to_s + "/" + @event.image_filename, class: "img-responsive center-block img-thumbnail img-lg"
+
+  %table.table
+    %tr
+      %td
+        %h4= "Going (" + @going.size.to_s + ")"
+        %ul.list-unstyled.list-inline
+          - @going.each do |att|
+            %li= link_to (image_tag root_url + "/images/users/" + att.user.profile_picture, class: "img-thumbnail user-profile-thumbnail img-responsive img-s"), att.user
+    %tr
+      %td
+        %h4= "Invited (" + @invited.size.to_s + ")"
+        %ul.list-unstyled.list-inline
+          - @invited.each do |att|
+            %li= link_to (image_tag root_url + "/images/users/" + att.user.profile_picture, class: "img-thumbnail user-profile-thumbnail img-responsive img-s"), att.user
+    %tr
+      %td
+        %h4= "Declined (" + @declined.size.to_s + ")"
+        %ul.list-unstyled.list-inline
+          - @declined.each do |att|
+            %li= link_to (image_tag root_url + "/images/users/" + att.user.profile_picture, class: "img-thumbnail user-profile-thumbnail img-responsive img-s"), att.user
+        
+    - if @event.creator == current_user
+      - unless @invitable_users.empty?
+        %tr
+          %td
+            = render 'attendees/form'
+            
+  - if current_user == @event.creator
+    = link_to 'Edit', edit_event_path(@event)
+    = link_to 'Back', events_path
+    = link_to 'Delete', @event, method: :delete

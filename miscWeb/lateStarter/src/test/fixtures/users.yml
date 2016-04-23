@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 519
+  first_name: Spencer
+  last_name: McWilliams
+  password_digest: $2a$10$Bpahc5LJ1xiPUh1GshsNbeLWY.P98XtLGtujTnbGmCf4K4jRCF39y
+
+two:
+  id: 2
+  first_name: John
+  last_name: Doe
+  password_digest: digestPlaceholder

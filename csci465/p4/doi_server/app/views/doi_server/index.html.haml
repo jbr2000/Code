@@ -1,0 +1,17 @@
+%h3 DOIs
+%table
+  %th id
+  %th name
+  - @dois.each do |doi|
+    %tr
+      %td= doi.id.to_s
+      %td= doi.name.to_s
+
+%h3 URLs
+%table
+  %th url
+  %th corresponding_doi
+  - @urls.each do |url|
+    %tr
+      %td= url.url.to_s
+      %td= url.doi.name.to_s

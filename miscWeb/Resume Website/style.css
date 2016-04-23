@@ -1,0 +1,80 @@
+body
+{
+	background-image:url('./FineWood.jpg');
+	background-repeat:repeat;
+	font:15px arial,sans-serif;
+	color:#4d1b04;
+}
+
+#center
+{
+	width:1000px;
+	padding:40px 30px;
+	margin:50px auto;
+	border-style:solid;
+	border-width:20px;
+	border-color:#843a1f;
+	border-radius:10px;
+	box-shadow:2px 2px 10px 2px #34170c;
+	background-image:url('./Paper\ copy.jpg');
+	background-repeat:repeat-y;
+	transition:border-color 1s;
+}
+
+#center:hover
+{
+	border-color:#4d1b04;
+}
+
+#lastName
+{
+	color:#AA5C39;
+}
+
+#contactInfo
+{
+	padding-bottom:20px;
+}
+
+h1
+{
+	font-size:60px;
+}
+
+section
+{
+	width: 1000px;
+}
+
+section table
+{
+	width:1000px;
+	margin:20px 0;
+	border:5px solid rgba(160, 81, 51, 0);
+	border-radius: 8px;
+	transition: all 0.7s;
+}
+
+section table:hover
+{
+	padding-left:100px;
+	padding-right:100px;
+	color:#4d1b04;
+	border-color:rgba(160, 81, 51, 1);
+}
+
+section table td:nth-child(even)
+{
+	text-align:right;
+}
+
+.rightAlign
+{
+	text-align:right;
+}
+
+.centerAlign
+{
+	text-align:center;
+}
+

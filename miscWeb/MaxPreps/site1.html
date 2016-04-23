@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style1.css">
+	<title>site1</title>
+
+  </head>
+  <body>
+    <script>
+    function updateBlog()
+	{
+	  var date = new Date();
+ 	  var title = document.getElementById("newTitle").value;
+	  document.getElementById("title").innerHTML = document.getElementById("newTitle").value;
+	  document.getElementById("entryBody").innerHTML = document.getElementById("newBody").value;
+	  document.getElementById("time").innerHTML = (date.getMonth()+1)+"/"+date.getUTCDate()+"/"+date.getFullYear()+" @ "+
+	                                               date.getHours()+":"+date.getMinutes();
+	  var entry = document.getElementsByClassName("blogEntry")[0];
+	  entry.style.opacity = 1;
+	  entry.style.height = "auto";
+	}
+	</script>
+	  <header id="main-header">myBLOG<span id="currentuser"></span></header>
+	  <article class="blogEntry">
+	    <p id="title">TitlePH</p>
+		<p id="time">TimePH</p>
+		<p id="entryBody">bodyPH</p>
+	  </article>
+	  
+	  <div id="new-entry">
+	    newENTRY
+		<br />
+	    entryTITLE: <input id="newTitle" type="text" />
+	    <br />
+		<br />
+	    <textarea id="newBody" rows="7" cols"93"></textarea>
+	    <br />
+		<br />
+	    <a href="#" onclick="updateBlog()" class="button">submitENTRY</a>
+     </div>
+  </body>
+</html>

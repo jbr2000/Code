@@ -1,0 +1,21 @@
+%td
+  .event-basic-info
+    %h3= link_to event.title, event
+    #date-time
+      %p= event.date_time.strftime('%b %d @ %H:%M')
+    #attendees
+      %ul.list-inline.list-unstyled
+        - attendees_short = Attendee.where("event_id = ? AND status = 1", event.id).limit(4)
+        - attendees_long = Attendee.where("event_id = ? AND status = 1", event.id)
+        - attendees_short.each do |att|
+          %li= link_to (image_tag root_url + "/images/users/" + att.user.profile_picture, class: "img-thumbnail img-responsive img-xs"), att.user
+        - if attendees_long.size > 4
+          %li= "+ " + (attendees_long.size - 4).to_s
+-# This section is broken because multiple invitations on one page, trigger a response for only the last item.
+-#%td
+-#  .invitation-confirmation-box
+-#    - unless Attendee.where("event_id = ? AND user_id = ?", event.id, current_user.id).empty?
+-#      = render 'attendees/invitation_block', :event => event
+%td
+  .event-face-image
+    = image_tag root_url + "/images/events/" + event.id.to_s + "/" + event.image_filename, class: "img-responsive img-thumbnail img-md"

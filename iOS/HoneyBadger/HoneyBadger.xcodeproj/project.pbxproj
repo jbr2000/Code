@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEAB3CC016E05B7C00415A1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAB3CBF16E05B7C00415A1E /* UIKit.framework */; };
+		DEAB3CC216E05B7C00415A1E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAB3CC116E05B7C00415A1E /* Foundation.framework */; };
+		DEAB3CC416E05B7C00415A1E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEAB3CC316E05B7C00415A1E /* CoreGraphics.framework */; };
+		DEAB3CCA16E05B7C00415A1E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEAB3CC816E05B7C00415A1E /* InfoPlist.strings */; };
+		DEAB3CCC16E05B7C00415A1E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB3CCB16E05B7C00415A1E /* main.m */; };
+		DEAB3CD016E05B7C00415A1E /* FontificateAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB3CCF16E05B7C00415A1E /* FontificateAppDelegate.m */; };
+		DEAB3CD216E05B7C00415A1E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DEAB3CD116E05B7C00415A1E /* Default.png */; };
+		DEAB3CD416E05B7C00415A1E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEAB3CD316E05B7C00415A1E /* Default@2x.png */; };
+		DEAB3CD616E05B7C00415A1E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEAB3CD516E05B7C00415A1E /* Default-568h@2x.png */; };
+		DEAB3CD916E05B7C00415A1E /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEAB3CD716E05B7C00415A1E /* MainStoryboard.storyboard */; };
+		DEAB3CDC16E05B7C00415A1E /* FontificateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB3CDB16E05B7C00415A1E /* FontificateViewController.m */; };
+		DEAB3CE916E05F3900415A1E /* ReusableView.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB3CE816E05F3900415A1E /* ReusableView.m */; };
+		DEAB3CEC16E0696800415A1E /* FontCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DEAB3CEB16E0696800415A1E /* FontCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DEAB3CBC16E05B7C00415A1E /* HoneyBadger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoneyBadger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEAB3CBF16E05B7C00415A1E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DEAB3CC116E05B7C00415A1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DEAB3CC316E05B7C00415A1E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DEAB3CC716E05B7C00415A1E /* HoneyBadger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HoneyBadger-Info.plist"; sourceTree = "<group>"; };
+		DEAB3CC916E05B7C00415A1E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DEAB3CCB16E05B7C00415A1E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEAB3CCD16E05B7C00415A1E /* HoneyBadger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HoneyBadger-Prefix.pch"; sourceTree = "<group>"; };
+		DEAB3CCE16E05B7C00415A1E /* FontificateAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontificateAppDelegate.h; sourceTree = "<group>"; };
+		DEAB3CCF16E05B7C00415A1E /* FontificateAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontificateAppDelegate.m; sourceTree = "<group>"; };
+		DEAB3CD116E05B7C00415A1E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DEAB3CD316E05B7C00415A1E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DEAB3CD516E05B7C00415A1E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DEAB3CD816E05B7C00415A1E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DEAB3CDA16E05B7C00415A1E /* FontificateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FontificateViewController.h; sourceTree = "<group>"; };
+		DEAB3CDB16E05B7C00415A1E /* FontificateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontificateViewController.m; sourceTree = "<group>"; };
+		DEAB3CE716E05F3900415A1E /* ReusableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ReusableView.h; path = ../ReusableView.h; sourceTree = "<group>"; };
+		DEAB3CE816E05F3900415A1E /* ReusableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReusableView.m; path = ../ReusableView.m; sourceTree = "<group>"; };
+		DEAB3CEA16E0696800415A1E /* FontCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FontCell.h; sourceTree = "<group>"; };
+		DEAB3CEB16E0696800415A1E /* FontCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FontCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEAB3CB916E05B7C00415A1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAB3CC016E05B7C00415A1E /* UIKit.framework in Frameworks */,
+				DEAB3CC216E05B7C00415A1E /* Foundation.framework in Frameworks */,
+				DEAB3CC416E05B7C00415A1E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEAB3CB316E05B7C00415A1E = {
+			isa = PBXGroup;
+			children = (
+				DEAB3CC516E05B7C00415A1E /* HoneyBadger */,
+				DEAB3CBE16E05B7C00415A1E /* Frameworks */,
+				DEAB3CBD16E05B7C00415A1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEAB3CBD16E05B7C00415A1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB3CBC16E05B7C00415A1E /* HoneyBadger.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEAB3CBE16E05B7C00415A1E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB3CBF16E05B7C00415A1E /* UIKit.framework */,
+				DEAB3CC116E05B7C00415A1E /* Foundation.framework */,
+				DEAB3CC316E05B7C00415A1E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEAB3CC516E05B7C00415A1E /* HoneyBadger */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB3CE716E05F3900415A1E /* ReusableView.h */,
+				DEAB3CE816E05F3900415A1E /* ReusableView.m */,
+				DEAB3CEA16E0696800415A1E /* FontCell.h */,
+				DEAB3CEB16E0696800415A1E /* FontCell.m */,
+				DEAB3CD716E05B7C00415A1E /* MainStoryboard.storyboard */,
+				DEAB3CDA16E05B7C00415A1E /* FontificateViewController.h */,
+				DEAB3CDB16E05B7C00415A1E /* FontificateViewController.m */,
+				DEAB3CC616E05B7C00415A1E /* Supporting Files */,
+			);
+			path = HoneyBadger;
+			sourceTree = "<group>";
+		};
+		DEAB3CC616E05B7C00415A1E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEAB3CCE16E05B7C00415A1E /* FontificateAppDelegate.h */,
+				DEAB3CCF16E05B7C00415A1E /* FontificateAppDelegate.m */,
+				DEAB3CC716E05B7C00415A1E /* HoneyBadger-Info.plist */,
+				DEAB3CC816E05B7C00415A1E /* InfoPlist.strings */,
+				DEAB3CCB16E05B7C00415A1E /* main.m */,
+				DEAB3CCD16E05B7C00415A1E /* HoneyBadger-Prefix.pch */,
+				DEAB3CD116E05B7C00415A1E /* Default.png */,
+				DEAB3CD316E05B7C00415A1E /* Default@2x.png */,
+				DEAB3CD516E05B7C00415A1E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEAB3CBB16E05B7C00415A1E /* HoneyBadger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEAB3CDF16E05B7C00415A1E /* Build configuration list for PBXNativeTarget "HoneyBadger" */;
+			buildPhases = (
+				DEAB3CB816E05B7C00415A1E /* Sources */,
+				DEAB3CB916E05B7C00415A1E /* Frameworks */,
+				DEAB3CBA16E05B7C00415A1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HoneyBadger;
+			productName = HoneyBadger;
+			productReference = DEAB3CBC16E05B7C00415A1E /* HoneyBadger.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEAB3CB416E05B7C00415A1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Fontificate;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Spencer McWilliams";
+			};
+			buildConfigurationList = DEAB3CB716E05B7C00415A1E /* Build configuration list for PBXProject "HoneyBadger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DEAB3CB316E05B7C00415A1E;
+			productRefGroup = DEAB3CBD16E05B7C00415A1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEAB3CBB16E05B7C00415A1E /* HoneyBadger */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEAB3CBA16E05B7C00415A1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAB3CCA16E05B7C00415A1E /* InfoPlist.strings in Resources */,
+				DEAB3CD216E05B7C00415A1E /* Default.png in Resources */,
+				DEAB3CD416E05B7C00415A1E /* Default@2x.png in Resources */,
+				DEAB3CD616E05B7C00415A1E /* Default-568h@2x.png in Resources */,
+				DEAB3CD916E05B7C00415A1E /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEAB3CB816E05B7C00415A1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEAB3CCC16E05B7C00415A1E /* main.m in Sources */,
+				DEAB3CD016E05B7C00415A1E /* FontificateAppDelegate.m in Sources */,
+				DEAB3CDC16E05B7C00415A1E /* FontificateViewController.m in Sources */,
+				DEAB3CE916E05F3900415A1E /* ReusableView.m in Sources */,
+				DEAB3CEC16E0696800415A1E /* FontCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEAB3CC816E05B7C00415A1E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEAB3CC916E05B7C00415A1E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DEAB3CD716E05B7C00415A1E /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEAB3CD816E05B7C00415A1E /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEAB3CDD16E05B7C00415A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DEAB3CDE16E05B7C00415A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEAB3CE016E05B7C00415A1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HoneyBadger/HoneyBadger-Prefix.pch";
+				INFOPLIST_FILE = "HoneyBadger/HoneyBadger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DEAB3CE116E05B7C00415A1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HoneyBadger/HoneyBadger-Prefix.pch";
+				INFOPLIST_FILE = "HoneyBadger/HoneyBadger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEAB3CB716E05B7C00415A1E /* Build configuration list for PBXProject "HoneyBadger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAB3CDD16E05B7C00415A1E /* Debug */,
+				DEAB3CDE16E05B7C00415A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEAB3CDF16E05B7C00415A1E /* Build configuration list for PBXNativeTarget "HoneyBadger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEAB3CE016E05B7C00415A1E /* Debug */,
+				DEAB3CE116E05B7C00415A1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEAB3CB416E05B7C00415A1E /* Project object */;
+}

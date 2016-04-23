@@ -1,0 +1,7 @@
+=notice
+= form_for Tag.new do |t|
+  = t.hidden_field :image_id, value: @image.id
+  .input-group.col-md-3
+    = t.text_field(:value, placeholder: "Tag", class: "form-control")
+    %span.input-group-btn
+      = t.submit("add", class: 'btn btn-default')

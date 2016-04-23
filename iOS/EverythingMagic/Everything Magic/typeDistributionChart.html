@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="text/javascript"></script>
+    <script src="https://code.highcharts.com/highcharts.js" type="text/javascript"></script>
+    <script src="https://code.highcharts.com/modules/data.js"></script>
+    <script src="https://code.highcharts.com/modules/drilldown.js"></script>
+    <script type="text/javascript">
+    $(function () {
+        // Create the chart
+        $('#container').highcharts({
+            chart: {
+                type: 'pie'
+            },
+            title: {
+                text: 'Card Type Distribution'
+            },
+            plotOptions: {
+                series: {
+                    dataLabels: {
+                        enabled: true,
+                        format: '{point.name}: {point.y}'
+                    }
+                }
+            },
+
+            tooltip: {
+                headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
+                pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y}</b><br/>'
+            },
+            series: [{
+                name: 'Types',
+                colorByPoint: true,
+                data: [{
+                    name: 'Creature',
+                    y: creatureDataPlaceholder,
+                    drilldown: 'Creature'
+                }, {
+                    name: 'Land',
+                    y: landDataPlaceholder,
+                    drilldown: 'Land'
+                }, {
+                    name: 'Spell',
+                    y: spellDataPlaceholder,
+                    drilldown: 'Spell'
+                }, {
+                    name: 'Planeswalker',
+                    y: planeswalkerDataPlaceholder,
+                    drilldown: null
+                }]
+            }],
+            drilldown: {
+                series: [{
+                    name: 'Spell',
+                    id: 'Spell',
+                    data: spellDrilldownDataPlaceholder
+                }]
+            }
+        });
+    });
+    </script>
+</head>
+
+<body>
+    <div id="container" style="width:100%; height:100%;"></div>
+</body>
+
+</html>

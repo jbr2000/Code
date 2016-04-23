@@ -1,0 +1,16 @@
+:javascript
+  $(function () {
+    $("#datetimepicker1").datetimepicker();
+  });
+
+= form_for(@event) do |f|
+  .field
+    = f.text_field :title, class: 'form-control', placeholder: "Title", required: true
+  .field
+    = f.file_field :uploaded_file, required: true
+  .field.input-group.date{:id => "datetimepicker1"}
+    = f.text_field :date_time, class: "form-control", required: true
+    %span.input-group-addon
+      %span.glyphicon.glyphicon-calendar
+  .actions
+    = f.submit class: "form-control btn btn-primary"

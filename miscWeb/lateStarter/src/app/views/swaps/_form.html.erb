@@ -1,0 +1,17 @@
+<%= form_for(@swap) do |f| %>
+  <% if @swap.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@swap.errors.count, "error") %> prohibited this swap from being saved:</h2>
+
+      <ul>
+      <% @swap.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

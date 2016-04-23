@@ -1,0 +1,1319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kanto</key>
+	<dict>
+		<key>001 Bulbasaur</key>
+		<string>1.png</string>
+		<key>002 Ivysaur</key>
+		<string>2.png</string>
+		<key>003 Venusaur</key>
+		<string>3.png</string>
+		<key>004 Charmander</key>
+		<string>4.png</string>
+		<key>005 Charmeleon</key>
+		<string>5.png</string>
+		<key>006 Charizard</key>
+		<string>6.png</string>
+		<key>007 Squirtle</key>
+		<string>7.png</string>
+		<key>008 Wartortle</key>
+		<string>8.png</string>
+		<key>009 Blastoise</key>
+		<string>9.png</string>
+		<key>010 Caterpie</key>
+		<string>10.png</string>
+		<key>011 Metapod</key>
+		<string>11.png</string>
+		<key>012 Butterfree</key>
+		<string>12.png</string>
+		<key>013 Weedle</key>
+		<string>13.png</string>
+		<key>014 Kakuna</key>
+		<string>14.png</string>
+		<key>015 Beedrill</key>
+		<string>15.png</string>
+		<key>016 Pidgey</key>
+		<string>16.png</string>
+		<key>017 Pidgeotto</key>
+		<string>17.png</string>
+		<key>018 Pidgeot</key>
+		<string>18.png</string>
+		<key>019 Rattata</key>
+		<string>19.png</string>
+		<key>020 Raticate</key>
+		<string>20.png</string>
+		<key>021 Spearow</key>
+		<string>21.png</string>
+		<key>022 Fearow</key>
+		<string>22.png</string>
+		<key>023 Ekans</key>
+		<string>23.png</string>
+		<key>024 Arbok</key>
+		<string>24.png</string>
+		<key>025 Pikachu</key>
+		<string>25.png</string>
+		<key>026 Raichu</key>
+		<string>26.png</string>
+		<key>027 Sandshrew</key>
+		<string>27.png</string>
+		<key>028 Sandslash</key>
+		<string>28.png</string>
+		<key>029 Nidoran ♀</key>
+		<string>29.png</string>
+		<key>030 Nidorina</key>
+		<string>30.png</string>
+		<key>031 Nidoqueen</key>
+		<string>31.png</string>
+		<key>032 Nidoran ♂</key>
+		<string>32.png</string>
+		<key>033 Nidorino</key>
+		<string>33.png</string>
+		<key>034 Nidoking</key>
+		<string>34.png</string>
+		<key>035 Clefairy</key>
+		<string>35.png</string>
+		<key>036 Clefable</key>
+		<string>36.png</string>
+		<key>037 Vulpix</key>
+		<string>37.png</string>
+		<key>038 Ninetales</key>
+		<string>38.png</string>
+		<key>039 Jigglypuff</key>
+		<string>39.png</string>
+		<key>040 Wigglytuff</key>
+		<string>40.png</string>
+		<key>041 Zubat</key>
+		<string>41.png</string>
+		<key>042 Golbat</key>
+		<string>42.png</string>
+		<key>043 Oddish</key>
+		<string>43.png</string>
+		<key>044 Gloom</key>
+		<string>44.png</string>
+		<key>045 Vileplume</key>
+		<string>45.png</string>
+		<key>046 Paras</key>
+		<string>46.png</string>
+		<key>047 Parasect</key>
+		<string>47.png</string>
+		<key>048 Venonat</key>
+		<string>48.png</string>
+		<key>049 Venomoth</key>
+		<string>49.png</string>
+		<key>050 Diglett</key>
+		<string>50.png</string>
+		<key>051 Dugtrio</key>
+		<string>51.png</string>
+		<key>052 Meowth</key>
+		<string>52.png</string>
+		<key>053 Persian</key>
+		<string>53.png</string>
+		<key>054 Psyduck</key>
+		<string>54.png</string>
+		<key>055 Golduck</key>
+		<string>55.png</string>
+		<key>056 Mankey</key>
+		<string>56.png</string>
+		<key>057 Primeape</key>
+		<string>57.png</string>
+		<key>058 Growlithe</key>
+		<string>58.png</string>
+		<key>059 Arcanine</key>
+		<string>59.png</string>
+		<key>060 Poliwag</key>
+		<string>60.png</string>
+		<key>061 Poliwhirl</key>
+		<string>61.png</string>
+		<key>062 Poliwrath</key>
+		<string>62.png</string>
+		<key>063 Abra</key>
+		<string>63.png</string>
+		<key>064 Kadabra</key>
+		<string>64.png</string>
+		<key>065 Alakazam</key>
+		<string>65.png</string>
+		<key>066 Machop</key>
+		<string>66.png</string>
+		<key>067 Machoke</key>
+		<string>67.png</string>
+		<key>068 Machamp</key>
+		<string>68.png</string>
+		<key>069 Bellsprout</key>
+		<string>69.png</string>
+		<key>070 Weepinbell</key>
+		<string>70.png</string>
+		<key>071 Victreebel</key>
+		<string>71.png</string>
+		<key>072 Tentacool</key>
+		<string>72.png</string>
+		<key>073 Tentacruel</key>
+		<string>73.png</string>
+		<key>074 Geodude</key>
+		<string>74.png</string>
+		<key>075 Graveler</key>
+		<string>75.png</string>
+		<key>076 Golem</key>
+		<string>76.png</string>
+		<key>077 Ponyta</key>
+		<string>77.png</string>
+		<key>078 Rapidash</key>
+		<string>78.png</string>
+		<key>079 Slowpoke</key>
+		<string>79.png</string>
+		<key>080 Slowbro</key>
+		<string>80.png</string>
+		<key>081 Magnemite</key>
+		<string>81.png</string>
+		<key>082 Magneton</key>
+		<string>82.png</string>
+		<key>083 Farfetch&apos;d</key>
+		<string>83.png</string>
+		<key>084 Doduo</key>
+		<string>84.png</string>
+		<key>085 Dodrio</key>
+		<string>85.png</string>
+		<key>086 Seel</key>
+		<string>86.png</string>
+		<key>087 Dewgong</key>
+		<string>87.png</string>
+		<key>088 Grimer</key>
+		<string>88.png</string>
+		<key>089 Muk</key>
+		<string>89.png</string>
+		<key>090 Shellder</key>
+		<string>90.png</string>
+		<key>091 Cloyster</key>
+		<string>91.png</string>
+		<key>092 Gastly</key>
+		<string>92.png</string>
+		<key>093 Haunter</key>
+		<string>93.png</string>
+		<key>094 Gengar</key>
+		<string>94.png</string>
+		<key>095 Onix</key>
+		<string>95.png</string>
+		<key>096 Drowzee</key>
+		<string>96.png</string>
+		<key>097 Hypno</key>
+		<string>97.png</string>
+		<key>098 Krabby</key>
+		<string>98.png</string>
+		<key>099 Kingler</key>
+		<string>99.png</string>
+		<key>100 Voltorb</key>
+		<string>100.png</string>
+		<key>101 Electrode</key>
+		<string>101.png</string>
+		<key>102 Exeggcute</key>
+		<string>102.png</string>
+		<key>103 Exeggutor</key>
+		<string>103.png</string>
+		<key>104 Cubone</key>
+		<string>104.png</string>
+		<key>105 Marowak</key>
+		<string>105.png</string>
+		<key>106 Hitmonlee</key>
+		<string>106.png</string>
+		<key>107 Hitmonchan</key>
+		<string>107.png</string>
+		<key>108 Lickitung</key>
+		<string>108.png</string>
+		<key>109 Koffing</key>
+		<string>109.png</string>
+		<key>110 Weezing</key>
+		<string>110.png</string>
+		<key>111 Rhyhorn</key>
+		<string>111.png</string>
+		<key>112 Rhydon</key>
+		<string>112.png</string>
+		<key>113 Chansey</key>
+		<string>113.png</string>
+		<key>114 Tangela</key>
+		<string>114.png</string>
+		<key>115 Kangaskhan</key>
+		<string>115.png</string>
+		<key>116 Horsea</key>
+		<string>116.png</string>
+		<key>117 Seadra</key>
+		<string>117.png</string>
+		<key>118 Goldeen</key>
+		<string>118.png</string>
+		<key>119 Seaking</key>
+		<string>119.png</string>
+		<key>120 Staryu</key>
+		<string>120.png</string>
+		<key>121 Starmie</key>
+		<string>121.png</string>
+		<key>122 Mr. Mime</key>
+		<string>122.png</string>
+		<key>123 Scyther</key>
+		<string>123.png</string>
+		<key>124 Jynx</key>
+		<string>124.png</string>
+		<key>125 Electabuzz</key>
+		<string>125.png</string>
+		<key>126 Magmar</key>
+		<string>126.png</string>
+		<key>127 Pinsir</key>
+		<string>127.png</string>
+		<key>128 Tauros</key>
+		<string>128.png</string>
+		<key>129 Magikarp</key>
+		<string>129.png</string>
+		<key>130 Gyarados</key>
+		<string>130.png</string>
+		<key>131 Lapras</key>
+		<string>131.png</string>
+		<key>132 Ditto</key>
+		<string>132.png</string>
+		<key>133 Eevee</key>
+		<string>133.png</string>
+		<key>134 Vaporeon</key>
+		<string>134.png</string>
+		<key>135 Jolteon</key>
+		<string>135.png</string>
+		<key>136 Flareon</key>
+		<string>136.png</string>
+		<key>137 Porygon</key>
+		<string>137.png</string>
+		<key>138 Omanyte</key>
+		<string>138.png</string>
+		<key>139 Omastar</key>
+		<string>139.png</string>
+		<key>140 Kabuto</key>
+		<string>140.png</string>
+		<key>141 Kabutops</key>
+		<string>141.png</string>
+		<key>142 Aerodactyl</key>
+		<string>142.png</string>
+		<key>143 Snorlax</key>
+		<string>143.png</string>
+		<key>144 Articuno</key>
+		<string>144.png</string>
+		<key>145 Zapdos</key>
+		<string>145.png</string>
+		<key>146 Moltres</key>
+		<string>146.png</string>
+		<key>147 Dratini</key>
+		<string>147.png</string>
+		<key>148 Dragonair</key>
+		<string>148.png</string>
+		<key>149 Dragonite</key>
+		<string>149.png</string>
+		<key>150 Mewtwo</key>
+		<string>150.png</string>
+		<key>151 Mew</key>
+		<string>151.png</string>
+	</dict>
+	<key>Johto</key>
+	<dict>
+		<key>152 Chikorita</key>
+		<string>152.png</string>
+		<key>153 Bayleef</key>
+		<string>153.png</string>
+		<key>154 Meganium</key>
+		<string>154.png</string>
+		<key>155 Cyndaquil</key>
+		<string>155.png</string>
+		<key>156 Quilava</key>
+		<string>156.png</string>
+		<key>157 Typhlosion</key>
+		<string>157.png</string>
+		<key>158 Totodile</key>
+		<string>158.png</string>
+		<key>159 Croconaw</key>
+		<string>159.png</string>
+		<key>160 Feraligatr</key>
+		<string>160.png</string>
+		<key>161 Sentret</key>
+		<string>161.png</string>
+		<key>162 Furret</key>
+		<string>162.png</string>
+		<key>163 Hoothoot</key>
+		<string>163.png</string>
+		<key>164 Noctowl</key>
+		<string>164.png</string>
+		<key>165 Ledyba</key>
+		<string>165.png</string>
+		<key>166 Ledian</key>
+		<string>166.png</string>
+		<key>167 Spinarak</key>
+		<string>167.png</string>
+		<key>168 Ariados</key>
+		<string>168.png</string>
+		<key>169 Crobat</key>
+		<string>169.png</string>
+		<key>170 Chinchou</key>
+		<string>170.png</string>
+		<key>171 Lanturn</key>
+		<string>171.png</string>
+		<key>172 Pichu</key>
+		<string>172.png</string>
+		<key>173 Cleffa</key>
+		<string>173.png</string>
+		<key>174 Igglybuff</key>
+		<string>174.png</string>
+		<key>175 Togepi</key>
+		<string>175.png</string>
+		<key>176 Togetic</key>
+		<string>176.png</string>
+		<key>177 Natu</key>
+		<string>177.png</string>
+		<key>178 Xatu</key>
+		<string>178.png</string>
+		<key>179 Mareep</key>
+		<string>179.png</string>
+		<key>180 Flaaffy</key>
+		<string>180.png</string>
+		<key>181 Ampharos</key>
+		<string>181.png</string>
+		<key>182 Bellossom</key>
+		<string>182.png</string>
+		<key>183 Marill</key>
+		<string>183.png</string>
+		<key>184 Azumarill</key>
+		<string>184.png</string>
+		<key>185 Sudowoodo</key>
+		<string>185.png</string>
+		<key>186 Politoed</key>
+		<string>186.png</string>
+		<key>187 Hoppip</key>
+		<string>187.png</string>
+		<key>188 Skiploom</key>
+		<string>188.png</string>
+		<key>189 Jumpluff</key>
+		<string>189.png</string>
+		<key>190 Aipom</key>
+		<string>190.png</string>
+		<key>191 Sunkern</key>
+		<string>191.png</string>
+		<key>192 Sunflora</key>
+		<string>192.png</string>
+		<key>193 Yanma</key>
+		<string>193.png</string>
+		<key>194 Wooper</key>
+		<string>194.png</string>
+		<key>195 Quagsire</key>
+		<string>195.png</string>
+		<key>196 Espeon</key>
+		<string>196.png</string>
+		<key>197 Umbreon</key>
+		<string>197.png</string>
+		<key>198 Murkrow</key>
+		<string>198.png</string>
+		<key>199 Slowking</key>
+		<string>199.png</string>
+		<key>200 Misdreavus</key>
+		<string>200.png</string>
+		<key>201 Unown</key>
+		<string>201.png</string>
+		<key>202 Wobbuffet</key>
+		<string>202.png</string>
+		<key>203 Girafarig</key>
+		<string>203.png</string>
+		<key>204 Pineco</key>
+		<string>204.png</string>
+		<key>205 Forretress</key>
+		<string>205.png</string>
+		<key>206 Dunsparce</key>
+		<string>206.png</string>
+		<key>207 Gligar</key>
+		<string>207.png</string>
+		<key>208 Steelix</key>
+		<string>208.png</string>
+		<key>209 Snubbull</key>
+		<string>209.png</string>
+		<key>210 Granbull</key>
+		<string>210.png</string>
+		<key>211 Qwilfish</key>
+		<string>211.png</string>
+		<key>212 Scizor</key>
+		<string>212.png</string>
+		<key>213 Shuckle</key>
+		<string>213.png</string>
+		<key>214 Heracross</key>
+		<string>214.png</string>
+		<key>215 Sneasel</key>
+		<string>215.png</string>
+		<key>216 Teddiursa</key>
+		<string>216.png</string>
+		<key>217 Ursaring</key>
+		<string>217.png</string>
+		<key>218 Slugma</key>
+		<string>218.png</string>
+		<key>219 Magcargo</key>
+		<string>219.png</string>
+		<key>220 Swinub</key>
+		<string>220.png</string>
+		<key>221 Piloswine</key>
+		<string>221.png</string>
+		<key>222 Corsola</key>
+		<string>222.png</string>
+		<key>223 Remoraid</key>
+		<string>223.png</string>
+		<key>224 Octillery</key>
+		<string>224.png</string>
+		<key>225 Delibird</key>
+		<string>225.png</string>
+		<key>226 Mantine</key>
+		<string>226.png</string>
+		<key>227 Skarmory</key>
+		<string>227.png</string>
+		<key>228 Houndour</key>
+		<string>228.png</string>
+		<key>229 Houndoom</key>
+		<string>229.png</string>
+		<key>230 Kingdra</key>
+		<string>230.png</string>
+		<key>231 Phanpy</key>
+		<string>231.png</string>
+		<key>232 Donphan</key>
+		<string>232.png</string>
+		<key>233 Porygon2</key>
+		<string>233.png</string>
+		<key>234 Stantler</key>
+		<string>234.png</string>
+		<key>235 Smeargle</key>
+		<string>235.png</string>
+		<key>236 Tyrogue</key>
+		<string>236.png</string>
+		<key>237 Hitmontop</key>
+		<string>237.png</string>
+		<key>238 Smoochum</key>
+		<string>238.png</string>
+		<key>239 Elekid</key>
+		<string>239.png</string>
+		<key>240 Magby</key>
+		<string>240.png</string>
+		<key>241 Miltank</key>
+		<string>241.png</string>
+		<key>242 Blissey</key>
+		<string>242.png</string>
+		<key>243 Raikou</key>
+		<string>243.png</string>
+		<key>244 Entei</key>
+		<string>244.png</string>
+		<key>245 Suicune</key>
+		<string>245.png</string>
+		<key>246 Larvitar</key>
+		<string>246.png</string>
+		<key>247 Pupitar</key>
+		<string>247.png</string>
+		<key>248 Tyranitar</key>
+		<string>248.png</string>
+		<key>249 Lugia</key>
+		<string>249.png</string>
+		<key>250 Ho-oh</key>
+		<string>250.png</string>
+		<key>251 Celebi</key>
+		<string>251.png</string>
+	</dict>
+	<key>Hoenn</key>
+	<dict>
+		<key>252 Treecko</key>
+		<string>252.png</string>
+		<key>253 Grovyle</key>
+		<string>253.png</string>
+		<key>254 Sceptile</key>
+		<string>254.png</string>
+		<key>255 Torchic</key>
+		<string>255.png</string>
+		<key>256 Combusken</key>
+		<string>256.png</string>
+		<key>257 Blaziken</key>
+		<string>257.png</string>
+		<key>258 Mudkip</key>
+		<string>258.png</string>
+		<key>259 Marshtomp</key>
+		<string>259.png</string>
+		<key>260 Swampert</key>
+		<string>260.png</string>
+		<key>261 Poochyena</key>
+		<string>261.png</string>
+		<key>262 Mightyena</key>
+		<string>262.png</string>
+		<key>263 Zigzagoon</key>
+		<string>263.png</string>
+		<key>264 Linoone</key>
+		<string>264.png</string>
+		<key>265 Wurmple</key>
+		<string>265.png</string>
+		<key>266 Silcoon</key>
+		<string>266.png</string>
+		<key>267 Beautifly</key>
+		<string>267.png</string>
+		<key>268 Cascoon</key>
+		<string>268.png</string>
+		<key>269 Dustox</key>
+		<string>269.png</string>
+		<key>270 Lotad</key>
+		<string>270.png</string>
+		<key>271 Lombre</key>
+		<string>271.png</string>
+		<key>272 Ludicolo</key>
+		<string>272.png</string>
+		<key>273 Seedot</key>
+		<string>273.png</string>
+		<key>274 Nuzleaf</key>
+		<string>274.png</string>
+		<key>275 Shiftry</key>
+		<string>275.png</string>
+		<key>276 Taillow</key>
+		<string>276.png</string>
+		<key>277 Swellow</key>
+		<string>277.png</string>
+		<key>278 Wingull</key>
+		<string>278.png</string>
+		<key>279 Pelipper</key>
+		<string>279.png</string>
+		<key>280 Ralts</key>
+		<string>280.png</string>
+		<key>281 Kirlia</key>
+		<string>281.png</string>
+		<key>282 Gardevoir</key>
+		<string>282.png</string>
+		<key>283 Surskit</key>
+		<string>283.png</string>
+		<key>284 Masquerain</key>
+		<string>284.png</string>
+		<key>285 Shroomish</key>
+		<string>285.png</string>
+		<key>286 Breloom</key>
+		<string>286.png</string>
+		<key>287 Slakoth</key>
+		<string>287.png</string>
+		<key>288 Vigoroth</key>
+		<string>288.png</string>
+		<key>289 Slaking</key>
+		<string>289.png</string>
+		<key>290 Nincada</key>
+		<string>290.png</string>
+		<key>291 Ninjask</key>
+		<string>291.png</string>
+		<key>292 Shedinja</key>
+		<string>292.png</string>
+		<key>293 Whismur</key>
+		<string>293.png</string>
+		<key>294 Loudred</key>
+		<string>294.png</string>
+		<key>295 Exploud</key>
+		<string>295.png</string>
+		<key>296 Makuhita</key>
+		<string>296.png</string>
+		<key>297 Hariyama</key>
+		<string>297.png</string>
+		<key>298 Azurill</key>
+		<string>298.png</string>
+		<key>299 Nosepass</key>
+		<string>299.png</string>
+		<key>300 Skitty</key>
+		<string>300.png</string>
+		<key>301 Delcatty</key>
+		<string>301.png</string>
+		<key>302 Sableye</key>
+		<string>302.png</string>
+		<key>303 Mawile</key>
+		<string>303.png</string>
+		<key>304 Aron</key>
+		<string>304.png</string>
+		<key>305 Lairon</key>
+		<string>305.png</string>
+		<key>306 Aggron</key>
+		<string>306.png</string>
+		<key>307 Meditite</key>
+		<string>307.png</string>
+		<key>308 Medicham</key>
+		<string>308.png</string>
+		<key>309 Electrike</key>
+		<string>309.png</string>
+		<key>310 Manectric</key>
+		<string>310.png</string>
+		<key>311 Plusle</key>
+		<string>311.png</string>
+		<key>312 Minun</key>
+		<string>312.png</string>
+		<key>313 Volbeat</key>
+		<string>313.png</string>
+		<key>314 Illumise</key>
+		<string>314.png</string>
+		<key>315 Roselia</key>
+		<string>315.png</string>
+		<key>316 Gulpin</key>
+		<string>316.png</string>
+		<key>317 Swalot</key>
+		<string>317.png</string>
+		<key>318 Carvanha</key>
+		<string>318.png</string>
+		<key>319 Sharpedo</key>
+		<string>319.png</string>
+		<key>320 Wailmer</key>
+		<string>320.png</string>
+		<key>321 Wailord</key>
+		<string>321.png</string>
+		<key>322 Numel</key>
+		<string>322.png</string>
+		<key>323 Camerupt</key>
+		<string>323.png</string>
+		<key>324 Torkoal</key>
+		<string>324.png</string>
+		<key>325 Spoink</key>
+		<string>325.png</string>
+		<key>326 Grumpig</key>
+		<string>326.png</string>
+		<key>327 Spinda</key>
+		<string>327.png</string>
+		<key>328 Trapinch</key>
+		<string>328.png</string>
+		<key>329 Vibrava</key>
+		<string>329.png</string>
+		<key>330 Flygon</key>
+		<string>330.png</string>
+		<key>331 Cacnea</key>
+		<string>331.png</string>
+		<key>332 Cacturne</key>
+		<string>332.png</string>
+		<key>333 Swablu</key>
+		<string>333.png</string>
+		<key>334 Altaria</key>
+		<string>334.png</string>
+		<key>335 Zangoose</key>
+		<string>335.png</string>
+		<key>336 Seviper</key>
+		<string>336.png</string>
+		<key>337 Lunatone</key>
+		<string>337.png</string>
+		<key>338 Solrock</key>
+		<string>338.png</string>
+		<key>339 Barboach</key>
+		<string>339.png</string>
+		<key>340 Whiscash</key>
+		<string>340.png</string>
+		<key>341 Corphish</key>
+		<string>341.png</string>
+		<key>342 Crawdaunt</key>
+		<string>342.png</string>
+		<key>343 Baltoy</key>
+		<string>343.png</string>
+		<key>344 Claydol</key>
+		<string>344.png</string>
+		<key>345 Lileep</key>
+		<string>345.png</string>
+		<key>346 Cradily</key>
+		<string>346.png</string>
+		<key>347 Anorith</key>
+		<string>347.png</string>
+		<key>348 Armaldo</key>
+		<string>348.png</string>
+		<key>349 Feebas</key>
+		<string>349.png</string>
+		<key>350 Milotic</key>
+		<string>350.png</string>
+		<key>351 Castform</key>
+		<string>351.png</string>
+		<key>352 Kecleon</key>
+		<string>352.png</string>
+		<key>353 Shuppet</key>
+		<string>353.png</string>
+		<key>354 Banette</key>
+		<string>354.png</string>
+		<key>355 Duskull</key>
+		<string>355.png</string>
+		<key>356 Dusclops</key>
+		<string>356.png</string>
+		<key>357 Tropius</key>
+		<string>357.png</string>
+		<key>358 Chimecho</key>
+		<string>358.png</string>
+		<key>359 Absol</key>
+		<string>359.png</string>
+		<key>360 Wynaut</key>
+		<string>360.png</string>
+		<key>361 Snorunt</key>
+		<string>361.png</string>
+		<key>362 Glalie</key>
+		<string>362.png</string>
+		<key>363 Spheal</key>
+		<string>363.png</string>
+		<key>364 Sealeo</key>
+		<string>364.png</string>
+		<key>365 Walrein</key>
+		<string>365.png</string>
+		<key>366 Clamperl</key>
+		<string>366.png</string>
+		<key>367 Huntail</key>
+		<string>367.png</string>
+		<key>368 Gorebyss</key>
+		<string>368.png</string>
+		<key>369 Relicanth</key>
+		<string>369.png</string>
+		<key>370 Luvdisc</key>
+		<string>370.png</string>
+		<key>371 Bagon</key>
+		<string>371.png</string>
+		<key>372 Shelgon</key>
+		<string>372.png</string>
+		<key>373 Salamence</key>
+		<string>373.png</string>
+		<key>374 Beldum</key>
+		<string>374.png</string>
+		<key>375 Metang</key>
+		<string>375.png</string>
+		<key>376 Metagross</key>
+		<string>376.png</string>
+		<key>377 Regirock</key>
+		<string>377.png</string>
+		<key>378 Regice</key>
+		<string>378.png</string>
+		<key>379 Registeel</key>
+		<string>379.png</string>
+		<key>380 Latias</key>
+		<string>380.png</string>
+		<key>381 Latios</key>
+		<string>381.png</string>
+		<key>382 Kyogre</key>
+		<string>382.png</string>
+		<key>383 Groudon</key>
+		<string>383.png</string>
+		<key>384 Rayquaza</key>
+		<string>384.png</string>
+		<key>385 Jirachi</key>
+		<string>385.png</string>
+		<key>386 Deoxys</key>
+		<string>386.png</string>
+	</dict>
+	<key>Sinnoh</key>
+	<dict>
+		<key>387 Turtwig</key>
+		<string>387.png</string>
+		<key>388 Grotle</key>
+		<string>388.png</string>
+		<key>389 Torterra</key>
+		<string>389.png</string>
+		<key>390 Chimchar</key>
+		<string>390.png</string>
+		<key>391 Monferno</key>
+		<string>391.png</string>
+		<key>392 Infernape</key>
+		<string>392.png</string>
+		<key>393 Piplup</key>
+		<string>393.png</string>
+		<key>394 Prinplup</key>
+		<string>394.png</string>
+		<key>395 Empoleon</key>
+		<string>395.png</string>
+		<key>396 Starly</key>
+		<string>396.png</string>
+		<key>397 Staravia</key>
+		<string>397.png</string>
+		<key>398 Staraptor</key>
+		<string>398.png</string>
+		<key>399 Bidoof</key>
+		<string>399.png</string>
+		<key>400 Bibarel</key>
+		<string>400.png</string>
+		<key>401 Kricketot</key>
+		<string>401.png</string>
+		<key>402 Kricketune</key>
+		<string>402.png</string>
+		<key>403 Shinx</key>
+		<string>403.png</string>
+		<key>404 Luxio</key>
+		<string>404.png</string>
+		<key>405 Luxray</key>
+		<string>405.png</string>
+		<key>406 Budew</key>
+		<string>406.png</string>
+		<key>407 Roserade</key>
+		<string>407.png</string>
+		<key>408 Cranidos</key>
+		<string>408.png</string>
+		<key>409 Rampardos</key>
+		<string>409.png</string>
+		<key>410 Shieldon</key>
+		<string>410.png</string>
+		<key>411 Bastiodon</key>
+		<string>411.png</string>
+		<key>412 Burmy</key>
+		<string>412.png</string>
+		<key>413 Wormadam</key>
+		<string>413.png</string>
+		<key>414 Mothim</key>
+		<string>414.png</string>
+		<key>415 Combee</key>
+		<string>415.png</string>
+		<key>416 Vespiquen</key>
+		<string>416.png</string>
+		<key>417 Pachirisu</key>
+		<string>417.png</string>
+		<key>418 Buizel</key>
+		<string>418.png</string>
+		<key>419 Floatzel</key>
+		<string>419.png</string>
+		<key>420 Cherubi</key>
+		<string>420.png</string>
+		<key>421 Cherrim</key>
+		<string>421.png</string>
+		<key>422 Shellos</key>
+		<string>422.png</string>
+		<key>423 Gastrodon</key>
+		<string>423.png</string>
+		<key>424 Ambipom</key>
+		<string>424.png</string>
+		<key>425 Drifloon</key>
+		<string>425.png</string>
+		<key>426 Drifblim</key>
+		<string>426.png</string>
+		<key>427 Buneary</key>
+		<string>427.png</string>
+		<key>428 Lopunny</key>
+		<string>428.png</string>
+		<key>429 Mismagius</key>
+		<string>429.png</string>
+		<key>430 Honchkrow</key>
+		<string>430.png</string>
+		<key>431 Glameow</key>
+		<string>431.png</string>
+		<key>432 Purugly</key>
+		<string>432.png</string>
+		<key>433 Chingling</key>
+		<string>433.png</string>
+		<key>434 Stunky</key>
+		<string>434.png</string>
+		<key>435 Skuntank</key>
+		<string>435.png</string>
+		<key>436 Bronzor</key>
+		<string>436.png</string>
+		<key>437 Bronzong</key>
+		<string>437.png</string>
+		<key>438 Bonsly</key>
+		<string>438.png</string>
+		<key>439 Mime Jr.</key>
+		<string>439.png</string>
+		<key>440 Happiny</key>
+		<string>440.png</string>
+		<key>441 Chatot</key>
+		<string>441.png</string>
+		<key>442 Spiritomb</key>
+		<string>442.png</string>
+		<key>443 Gible</key>
+		<string>443.png</string>
+		<key>444 Gabite</key>
+		<string>444.png</string>
+		<key>445 Garchomp</key>
+		<string>445.png</string>
+		<key>446 Munchlax</key>
+		<string>446.png</string>
+		<key>447 Riolu</key>
+		<string>447.png</string>
+		<key>448 Lucario</key>
+		<string>448.png</string>
+		<key>449 Hippopotas</key>
+		<string>449.png</string>
+		<key>450 Hippowdon</key>
+		<string>450.png</string>
+		<key>451 Skorupi</key>
+		<string>451.png</string>
+		<key>452 Drapion</key>
+		<string>452.png</string>
+		<key>453 Croagunk</key>
+		<string>453.png</string>
+		<key>454 Toxicroak</key>
+		<string>454.png</string>
+		<key>455 Carnivine</key>
+		<string>455.png</string>
+		<key>456 Finneon</key>
+		<string>456.png</string>
+		<key>457 Lumineon</key>
+		<string>457.png</string>
+		<key>458 Mantyke</key>
+		<string>458.png</string>
+		<key>459 Snover</key>
+		<string>459.png</string>
+		<key>460 Abomasnow</key>
+		<string>460.png</string>
+		<key>461 Weavile</key>
+		<string>461.png</string>
+		<key>462 Magnezone</key>
+		<string>462.png</string>
+		<key>463 Lickilicky</key>
+		<string>463.png</string>
+		<key>464 Rhyperior</key>
+		<string>464.png</string>
+		<key>465 Tangrowth</key>
+		<string>465.png</string>
+		<key>466 Electivire</key>
+		<string>466.png</string>
+		<key>467 Magmortar</key>
+		<string>467.png</string>
+		<key>468 Togekiss</key>
+		<string>468.png</string>
+		<key>469 Yanmega</key>
+		<string>469.png</string>
+		<key>470 Leafeon</key>
+		<string>470.png</string>
+		<key>471 Glaceon</key>
+		<string>471.png</string>
+		<key>472 Gliscor</key>
+		<string>472.png</string>
+		<key>473 Mamoswine</key>
+		<string>473.png</string>
+		<key>474 Porygon-Z</key>
+		<string>474.png</string>
+		<key>475 Gallade</key>
+		<string>475.png</string>
+		<key>476 Probopass</key>
+		<string>476.png</string>
+		<key>477 Dusknoir</key>
+		<string>477.png</string>
+		<key>478 Froslass</key>
+		<string>478.png</string>
+		<key>479 Rotom</key>
+		<string>479.png</string>
+		<key>480 Uxie</key>
+		<string>480.png</string>
+		<key>481 Mesprit</key>
+		<string>481.png</string>
+		<key>482 Azelf</key>
+		<string>482.png</string>
+		<key>483 Dialga</key>
+		<string>483.png</string>
+		<key>484 Palkia</key>
+		<string>484.png</string>
+		<key>485 Heatran</key>
+		<string>485.png</string>
+		<key>486 Regigigas</key>
+		<string>486.png</string>
+		<key>487 Giratina</key>
+		<string>487.png</string>
+		<key>488 Cresselia</key>
+		<string>488.png</string>
+		<key>489 Phione</key>
+		<string>489.png</string>
+		<key>490 Manaphy</key>
+		<string>490.png</string>
+		<key>491 Darkrai</key>
+		<string>491.png</string>
+		<key>492 Shaymin</key>
+		<string>492.png</string>
+		<key>493 Arceus</key>
+		<string>493.png</string>
+	</dict>
+	<key>Unova</key>
+	<dict>
+		<key>494 Victini</key>
+		<string>494.png</string>
+		<key>495 Snivy</key>
+		<string>495.png</string>
+		<key>496 Servine</key>
+		<string>496.png</string>
+		<key>497 Serperior</key>
+		<string>497.png</string>
+		<key>498 Tepig</key>
+		<string>498.png</string>
+		<key>499 Pignite</key>
+		<string>499.png</string>
+		<key>500 Emboar</key>
+		<string>500.png</string>
+		<key>501 Oshawott</key>
+		<string>501.png</string>
+		<key>502 Dewott</key>
+		<string>502.png</string>
+		<key>503 Samurott</key>
+		<string>503.png</string>
+		<key>504 Patrat</key>
+		<string>504.png</string>
+		<key>505 Watchog</key>
+		<string>505.png</string>
+		<key>506 Lillipup</key>
+		<string>506.png</string>
+		<key>507 Herdier</key>
+		<string>507.png</string>
+		<key>508 Stoutland</key>
+		<string>508.png</string>
+		<key>509 Purrloin</key>
+		<string>509.png</string>
+		<key>510 Liepard</key>
+		<string>510.png</string>
+		<key>511 Pansage</key>
+		<string>511.png</string>
+		<key>512 Simisage</key>
+		<string>512.png</string>
+		<key>513 Pansear</key>
+		<string>513.png</string>
+		<key>514 Simisear</key>
+		<string>514.png</string>
+		<key>515 Panpour</key>
+		<string>515.png</string>
+		<key>516 Simipour</key>
+		<string>516.png</string>
+		<key>517 Munna</key>
+		<string>517.png</string>
+		<key>518 Musharna</key>
+		<string>518.png</string>
+		<key>519 Pidove</key>
+		<string>519.png</string>
+		<key>520 Tranquill</key>
+		<string>520.png</string>
+		<key>521 Unfezant</key>
+		<string>521.png</string>
+		<key>522 Blitzle</key>
+		<string>522.png</string>
+		<key>523 Zebstrika</key>
+		<string>523.png</string>
+		<key>524 Roggenrola</key>
+		<string>524.png</string>
+		<key>525 Boldore</key>
+		<string>525.png</string>
+		<key>526 Gigalith</key>
+		<string>526.png</string>
+		<key>527 Woobat</key>
+		<string>527.png</string>
+		<key>528 Swoobat</key>
+		<string>528.png</string>
+		<key>529 Drilbur</key>
+		<string>529.png</string>
+		<key>530 Excadrill</key>
+		<string>530.png</string>
+		<key>531 Audino</key>
+		<string>531.png</string>
+		<key>532 Timburr</key>
+		<string>532.png</string>
+		<key>533 Gurdurr</key>
+		<string>533.png</string>
+		<key>534 Conkeldurr</key>
+		<string>534.png</string>
+		<key>535 Tympole</key>
+		<string>535.png</string>
+		<key>536 Palpitoad</key>
+		<string>536.png</string>
+		<key>537 Seismitoad</key>
+		<string>537.png</string>
+		<key>538 Throh</key>
+		<string>538.png</string>
+		<key>539 Sawk</key>
+		<string>539.png</string>
+		<key>540 Sewaddle</key>
+		<string>540.png</string>
+		<key>541 Swadloon</key>
+		<string>541.png</string>
+		<key>542 Leavanny</key>
+		<string>542.png</string>
+		<key>543 Venipede</key>
+		<string>543.png</string>
+		<key>544 Whirlipede</key>
+		<string>544.png</string>
+		<key>545 Scolipede</key>
+		<string>545.png</string>
+		<key>546 Cottonee</key>
+		<string>546.png</string>
+		<key>547 Whimsicott</key>
+		<string>547.png</string>
+		<key>548 Petilil</key>
+		<string>548.png</string>
+		<key>549 Lilligant</key>
+		<string>549.png</string>
+		<key>550 Basculin</key>
+		<string>550.png</string>
+		<key>551 Sandile</key>
+		<string>551.png</string>
+		<key>552 Krokorok</key>
+		<string>552.png</string>
+		<key>553 Krookodile</key>
+		<string>553.png</string>
+		<key>554 Darumaka</key>
+		<string>554.png</string>
+		<key>555 Darmanitan</key>
+		<string>555.png</string>
+		<key>556 Maractus</key>
+		<string>556.png</string>
+		<key>557 Dwebble</key>
+		<string>557.png</string>
+		<key>558 Crustle</key>
+		<string>558.png</string>
+		<key>559 Scraggy</key>
+		<string>559.png</string>
+		<key>560 Scrafty</key>
+		<string>560.png</string>
+		<key>561 Sigilyph</key>
+		<string>561.png</string>
+		<key>562 Yamask</key>
+		<string>562.png</string>
+		<key>563 Cofagrigus</key>
+		<string>563.png</string>
+		<key>564 Tirtouga</key>
+		<string>564.png</string>
+		<key>565 Carracosta</key>
+		<string>565.png</string>
+		<key>566 Archen</key>
+		<string>566.png</string>
+		<key>567 Archeops</key>
+		<string>567.png</string>
+		<key>568 Trubbish</key>
+		<string>568.png</string>
+		<key>569 Garbodor</key>
+		<string>569.png</string>
+		<key>570 Zorua</key>
+		<string>570.png</string>
+		<key>571 Zoroark</key>
+		<string>571.png</string>
+		<key>572 Minccino</key>
+		<string>572.png</string>
+		<key>573 Cinccino</key>
+		<string>573.png</string>
+		<key>574 Gothita</key>
+		<string>574.png</string>
+		<key>575 Gothorita</key>
+		<string>575.png</string>
+		<key>576 Gothitelle</key>
+		<string>576.png</string>
+		<key>577 Solosis</key>
+		<string>577.png</string>
+		<key>578 Duosion</key>
+		<string>578.png</string>
+		<key>579 Reuniclus</key>
+		<string>579.png</string>
+		<key>580 Ducklett</key>
+		<string>580.png</string>
+		<key>581 Swanna</key>
+		<string>581.png</string>
+		<key>582 Vanillite</key>
+		<string>582.png</string>
+		<key>583 Vanillish</key>
+		<string>583.png</string>
+		<key>584 Vanilluxe</key>
+		<string>584.png</string>
+		<key>585 Deerling</key>
+		<string>585.png</string>
+		<key>586 Sawsbuck</key>
+		<string>586.png</string>
+		<key>587 Emolga</key>
+		<string>587.png</string>
+		<key>588 Karrablast</key>
+		<string>588.png</string>
+		<key>589 Escavalier</key>
+		<string>589.png</string>
+		<key>590 Foongus</key>
+		<string>590.png</string>
+		<key>591 Amoonguss</key>
+		<string>591.png</string>
+		<key>592 Frillish</key>
+		<string>592.png</string>
+		<key>593 Jellicent</key>
+		<string>593.png</string>
+		<key>594 Alomomola</key>
+		<string>594.png</string>
+		<key>595 Joltik</key>
+		<string>595.png</string>
+		<key>596 Galvantula</key>
+		<string>596.png</string>
+		<key>597 Ferroseed</key>
+		<string>597.png</string>
+		<key>598 Ferrothorn</key>
+		<string>598.png</string>
+		<key>599 Klink</key>
+		<string>599.png</string>
+		<key>600 Klang</key>
+		<string>600.png</string>
+		<key>601 Klinklang</key>
+		<string>601.png</string>
+		<key>602 Tynamo</key>
+		<string>602.png</string>
+		<key>603 Eelektrik</key>
+		<string>603.png</string>
+		<key>604 Eelektross</key>
+		<string>604.png</string>
+		<key>605 Elgyem</key>
+		<string>605.png</string>
+		<key>606 Beheeyem</key>
+		<string>606.png</string>
+		<key>607 Litwick</key>
+		<string>607.png</string>
+		<key>608 Lampent</key>
+		<string>608.png</string>
+		<key>609 Chandelure</key>
+		<string>609.png</string>
+		<key>610 Axew</key>
+		<string>610.png</string>
+		<key>611 Fraxure</key>
+		<string>611.png</string>
+		<key>612 Haxorus</key>
+		<string>612.png</string>
+		<key>613 Cubchoo</key>
+		<string>613.png</string>
+		<key>614 Beartic</key>
+		<string>614.png</string>
+		<key>615 Cryogonal</key>
+		<string>615.png</string>
+		<key>616 Shelmet</key>
+		<string>616.png</string>
+		<key>617 Accelgor</key>
+		<string>617.png</string>
+		<key>618 Stunfisk</key>
+		<string>618.png</string>
+		<key>619 Mienfoo</key>
+		<string>619.png</string>
+		<key>620 Mienshao</key>
+		<string>620.png</string>
+		<key>621 Druddigon</key>
+		<string>621.png</string>
+		<key>622 Golett</key>
+		<string>622.png</string>
+		<key>623 Golurk</key>
+		<string>623.png</string>
+		<key>624 Pawniard</key>
+		<string>624.png</string>
+		<key>625 Bisharp</key>
+		<string>625.png</string>
+		<key>626 Bouffalant</key>
+		<string>626.png</string>
+		<key>627 Rufflet</key>
+		<string>627.png</string>
+		<key>628 Braviary</key>
+		<string>628.png</string>
+		<key>629 Vullaby</key>
+		<string>629.png</string>
+		<key>630 Mandibuzz</key>
+		<string>630.png</string>
+		<key>631 Heatmor</key>
+		<string>631.png</string>
+		<key>632 Durant</key>
+		<string>632.png</string>
+		<key>633 Deino</key>
+		<string>633.png</string>
+		<key>634 Zweilous</key>
+		<string>634.png</string>
+		<key>635 Hydreigon</key>
+		<string>635.png</string>
+		<key>636 Larvesta</key>
+		<string>636.png</string>
+		<key>637 Volcarona</key>
+		<string>637.png</string>
+		<key>638 Cobalion</key>
+		<string>638.png</string>
+		<key>639 Terrakion</key>
+		<string>639.png</string>
+		<key>640 Virizion</key>
+		<string>640.png</string>
+		<key>641 Tornadus</key>
+		<string>641.png</string>
+		<key>642 Thundurus</key>
+		<string>642.png</string>
+		<key>643 Reshiram</key>
+		<string>643.png</string>
+		<key>644 Zekrom</key>
+		<string>644.png</string>
+		<key>645 Landorus</key>
+		<string>645.png</string>
+		<key>646 Kyurem</key>
+		<string>646.png</string>
+		<key>647 Keldeo</key>
+		<string>647.png</string>
+		<key>648 Meloetta</key>
+		<string>648.png</string>
+		<key>649 Genesect</key>
+		<string>649.png</string>
+	</dict>
+</dict>
+</plist>

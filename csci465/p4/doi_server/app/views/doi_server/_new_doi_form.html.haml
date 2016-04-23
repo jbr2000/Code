@@ -1,0 +1,14 @@
+= form_tag('/create', method: 'get') do
+  = label_tag(:name)
+  <br />
+  = text_field_tag(:name)
+  <br />
+  = label_tag :inital_url
+  <br />
+  = text_field_tag :initial_url
+  <br />
+  = label_tag :description
+  <br />
+  = text_area_tag :description
+  <br />
+  = submit_tag "Create DOI"

@@ -1,0 +1,24 @@
+<div class="container">
+  <div class="col-md-8">
+    <div class="form-group">
+      <% flash[:image_id] = @image.id %>
+      <% unless @users_to_add.empty? %>
+        <%= form_for(Imageuser.new) do |f| %>
+          <%= f.collection_select(:user_id, @users_to_add, :id, :name) %>
+          <%= f.submit("Grant Access") %>
+        <% end %>
+      <% end %>
+
+      <table>
+        <tbody>
+          <% @users_to_deny.each do |user| %>
+            <tr>
+              <td><%= user.name %></td>
+              <td><%= link_to(raw("<span class=\"glyphicon glyphicon-remove\" aria-hidden=\"true\"></span>"), {controller: 'imageusers', action: 'destroy', id: Imageuser.find_by(image_id: @image.id, user_id: user.id).id}, method: :delete, class: 'btn btn-xs') %></td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

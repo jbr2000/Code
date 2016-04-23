@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style2.css"><title>site2</title>
+</head>
+<body>
+  <script>
+	function player(firstname, lastname, year){
+	  this.firstname=firstname;
+	  this.lastname=lastname;
+	  this.year=year;
+	}
+	function getyear(year){
+	  switch (year){
+	    case 1:
+          return "Freshman";
+          break;
+        case 2:
+          return "Sophomore";
+          break;
+        case 3:
+          return "Junior";
+          break;
+        case 4:
+          return "Senior";
+          break;
+        default:
+          return "**YEAR ERROR";
+      }
+	}
+	var roster=[new player("Aidan","Delplanque",3),new player("Clayton","Johnston",4),new player("Connal","Hart",3),
+				new player("Daniel","Pardee",3),new player("Dan","Rowen",3),new player("Grant","Rose",4),
+				new player("Gus","Realyvasquez",4),new player("Jake","Hammond",1),new player("Kelby","Spore",4),
+				new player("Kevin","Klenzendorf",4),new player("Kevin","Willefert",4),new player("Kian","Reno",3),
+	            new player("Liam","Neville",2),new player("Logan","Davis",3),new player("Mark","Bruemmer",3),
+				new player("Mikie","Schlosser",4),new player("Patrick","Zhu",4),new player("Rudy","Buhlman",4),
+				new player("Ryan","Amesbury",3),new player("Sam","Eaton",2),new player("Sam","Gellen",3),
+				new player("Spencer","Zenner",3),new player("Steven","Orr",4),new player("Vikram","Prathap",3),
+				new player("Willie","Hawkins",4),new player("Will","McPherson",4),new player("Yuto","Okamoto",4)];
+   </script>
+   <div id="main">
+     <table>
+	   <thead>
+	     <tr>
+		   <th>Name</th>
+		   <th>Year</th>
+		 </tr>
+	   <tbody id="rosterbody">
+	   </tbody>
+     </table>
+     <script>
+       for(row=0;row<roster.length;row++){
+         var curplayer=roster[row];
+         var newrow=(document.getElementById("rosterbody")).insertRow(row);
+         var newcell=newrow.insertCell(0);
+         newcell.innerHTML=curplayer.firstname + " " + curplayer.lastname;
+         newcell=newrow.insertCell(1);
+         newcell.innerHTML=getyear(curplayer.year);
+       }
+     </script>
+   </div>
+</body>
+</html>

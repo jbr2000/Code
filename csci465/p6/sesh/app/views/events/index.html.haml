@@ -1,0 +1,15 @@
+= notice
+
+.page-header
+  %h4= "ALL EVENTS (" + @events.size.to_s + ")"
+  = link_to raw("<span class=\"glyphicon glyphicon-plus-sign white\"></span>"), new_event_path
+
+%table.table
+  %tbody
+    - @events.each do |event|
+      %tr
+        = render 'events/face', :event => event
+          
+- if @events.size == 0
+  %h2 No Events
+<br>

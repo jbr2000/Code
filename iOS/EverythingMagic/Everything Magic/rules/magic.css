@@ -1,0 +1,77 @@
+  body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:	normal;
+	font-style:		normal;
+	border:			none;
+	padding:		1px;
+	margin:			5px;
+	font-size		90%;
+} .lightblue {
+    background-color: #ffffff;
+} .lightgreen {
+	background-color: #d9d9d9;
+} h1, h2, h3 {
+	margin-top:		0.2em; 
+	margin-bottom:	0.2em; 
+} h1 {
+	font-size:		160%; 
+	letter-spacing: 4px;
+} h2 {
+	font-size:		140%;
+	letter-spacing: 3px;
+} h3 {
+	font-size:		120%;
+	letter-spacing: 2px;
+} h4, h5, h6 {
+	font-size:		100%;
+	text-align:		left;
+	font-style:		italic;
+	margin-bottom:	0; 
+} a {
+	font-weight:	normal;
+	text-decoration: none;
+} a:link {
+    color:			#b30000;
+} a:active {
+    color:			#b30000;
+} a:visited {
+    color:			#b30000;
+} a:hover {
+	text-decoration: underline;
+} table {
+	border:			0px;
+	padding:		0px;
+	margin:			0px;
+} table.visible {
+	border:			black 1pt solid;
+	font-weight:	bold;
+	padding:		2px;
+} p {
+	margin-top:		0; 
+	font-size:		100%;
+} p.small {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:		90%;
+} i {
+	letter-spacing: 1px;
+} ol,ul,li {
+	margin-top: 0.1em; 
+	margin-bottom: 0.1em; 
+} ol.white {
+	margin:			.6em 1.6em .6em 1.6em; 
+	background-color: white; 
+	padding-top:	.6em;
+	padding-bottom:	.6em;
+} h1.top {
+	margin-left:	10; 
+	font-weight:	normal;
+	margin-bottom:	2; 
+} a.large1, a.large2, a.large3 {
+	text-decoration: underline;
+	font-size:		140%; 
+	padding:		0 0.5em;
+} a.large2 {
+	background-color: #d9f8ff; 
+} a.large3 {
+	background-color: #def3bd; 
+}

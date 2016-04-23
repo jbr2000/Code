@@ -1,0 +1,176 @@
+#include "expression.h"
+#include <math.h>
+#include <string>
+#include <sstream>
+#include <stdlib.h>
+#include <iostream>
+using namespace std;
+
+// constructor for constant value node
+Expression::Expression(void        *p_value,
+                        Gpl_type    p_type,
+                        Expression *p_left,
+                        Expression *p_right) {
+    type        = p_type;
+    value       = p_value;
+    left        = p_left;
+    right       = p_right;
+}
+
+// constructor for operator node
+Expression::Expression(Operator_type p_op,
+                        Gpl_type     p_type,
+                        Expression  *p_left,
+                        Expression  *p_right) {
+    type    = p_type;
+    op_type = p_op;
+    left    = p_left;
+    right   = p_right;
+}
+
+bool Expression::cast_to_type(Gpl_type p_type) {
+    switch (p_type) {
+        case DOUBLE:
+            
+            break;
+        case STRING:
+            break;
+        default:
+            break;
+    }
+}
+
+Expression* Expression::evaluate() {
+    double const RADIAN_MULTIPLIER = 0.01745329222;
+    double const DEGREE_MULTIPLIER = 57.2957804904;
+    if (left == NULL && right == NULL) // if leaf
+        return this;
+    left->evaluate();
+    if (right)
+        right->evaluate();
+
+    // cast to string when necessary
+    stringstream ss;
+    if (type == STRING) {
+        if (left->type != STRING) { 
+            if (left->type == INT)
+                ss << *((int*)(left->evaluate()->value));
+            else if (left->type == DOUBLE)
+                ss << *((double*)(left->evaluate()->value));
+            left = new Expression(new string(ss.str()), STRING, NULL, NULL);
+            ss.str("");
+        }
+        if (right) // not unary
+            if (right->type != STRING) {
+                if (right->type == INT)
+                    ss << *((int*)(right->evaluate()->value));
+                else if (right->type == DOUBLE)
+                    ss << *((double*)(right->evaluate()->value));
+                right = new Expression(new string(ss.str()), STRING, NULL, NULL);
+                ss.str("");
+            }
+    }
+    
+    // cast to double when necessary
+    if (type == DOUBLE) {
+        assert(left->type != STRING);
+        if (left->type == INT) {
+            left = new Expression(new double(*((int*)(left->evaluate()->value))), DOUBLE, NULL, NULL);
+        }
+        if (right) // not unary
+            if (right->type == INT)
+                right = new Expression(new double(*((int*)(right->evaluate()->value))), DOUBLE, NULL, NULL);
+    }
+
+    switch (type) {
+        case INT: {
+            int left_i_value;
+            int right_i_value;
+            left_i_value = *((int*)(left->evaluate()->value));
+            if (right) // not unary
+                right_i_value = *((int*)(right->evaluate()->value));
+            switch (op_type) {
+                case PLUS:                  return new Expression(new int(left_i_value + right_i_value), INT, NULL, NULL); break;
+                case MINUS:                 return new Expression(new int(left_i_value - right_i_value), INT, NULL, NULL); break;
+                case MULTIPLY:              return new Expression(new int(left_i_value * right_i_value), INT, NULL, NULL); break;
+                case DIVIDE:                return new Expression(new int(left_i_value / right_i_value), INT, NULL, NULL); break;
+                case MOD:                   return new Expression(new int(left_i_value % right_i_value), INT, NULL, NULL); break;
+                case AND:                   return new Expression(new int(left_i_value && right_i_value), INT, NULL, NULL); break;
+                case OR:                    return new Expression(new int(left_i_value || right_i_value), INT, NULL, NULL); break;
+                case EQUAL:                 return new Expression(new int(left_i_value == right_i_value), INT, NULL, NULL); break;
+                case NOT_EQUAL:             return new Expression(new int(left_i_value != right_i_value), INT, NULL, NULL); break;
+                case LESS_THAN:             return new Expression(new int(left_i_value < right_i_value), INT, NULL, NULL); break;
+                case LESS_THAN_EQUAL:       return new Expression(new int(left_i_value <= right_i_value), INT, NULL, NULL); break;
+                case GREATER_THAN:          return new Expression(new int(left_i_value > right_i_value), INT, NULL, NULL); break;
+                case GREATER_THAN_EQUAL:    return new Expression(new int(left_i_value >= right_i_value), INT, NULL, NULL); break;
+                // UNARY
+                case SQRT:                  return new Expression(new int(sqrt(    left_i_value)), INT, NULL, NULL); break;
+                case ABS:                   return new Expression(new int(abs(     left_i_value)), INT, NULL, NULL);  break;
+                case FLOOR:                 return new Expression(new int(floor(   left_i_value)), INT, NULL, NULL); break;
+                case RANDOM:                return new Expression(new int(rand() % left_i_value), INT, NULL, NULL);  break;
+                case UNARY_MINUS:           return new Expression(new int(-        left_i_value), INT, NULL, NULL);  break;
+                case NOT:                   return new Expression(new int(!        left_i_value), INT, NULL, NULL);  break;
+                // TRIG
+                case SIN:                   return new Expression(new int(sin(left_i_value*RADIAN_MULTIPLIER)), INT, NULL, NULL); break;
+                case COS:                   return new Expression(new int(cos(left_i_value*RADIAN_MULTIPLIER)), INT, NULL, NULL); break;
+                case TAN:                   return new Expression(new int(tan(left_i_value*RADIAN_MULTIPLIER)), INT, NULL, NULL); break;
+                case ASIN:                  return new Expression(new int(asin(left_i_value*DEGREE_MULTIPLIER)), INT, NULL, NULL); break;
+                case ACOS:                  return new Expression(new int(acos(left_i_value*DEGREE_MULTIPLIER)), INT, NULL, NULL); break;
+                case ATAN:                  return new Expression(new int(atan(left_i_value*DEGREE_MULTIPLIER)), INT, NULL, NULL); break;
+                default: cout << "Invalid operation on INT\n"; break;
+            }
+            break;
+        }
+        case DOUBLE: {
+            double left_d_value;
+            double right_d_value;
+            left_d_value = *((double*)(left->evaluate()->value));
+            if (right)
+                right_d_value = *((double*)(right->evaluate()->value));
+            switch (op_type) {
+                case PLUS:                  return new Expression(new double(left_d_value + right_d_value), DOUBLE, NULL, NULL); break;
+                case MINUS:                 return new Expression(new double(left_d_value - right_d_value), DOUBLE, NULL, NULL); break;
+                case MULTIPLY:              return new Expression(new double(left_d_value * right_d_value), DOUBLE, NULL, NULL); break;
+                case DIVIDE:                return new Expression(new double(left_d_value / right_d_value), DOUBLE, NULL, NULL); break;
+                case AND:                   return new Expression(new double(left_d_value && right_d_value), DOUBLE, NULL, NULL); break;
+                case OR:                    return new Expression(new double(left_d_value || right_d_value), DOUBLE, NULL, NULL); break;
+                case EQUAL:                 return new Expression(new double(left_d_value == right_d_value), DOUBLE, NULL, NULL); break;
+                case NOT_EQUAL:             return new Expression(new double(left_d_value != right_d_value), DOUBLE, NULL, NULL); break;
+                case LESS_THAN:             return new Expression(new double(left_d_value < right_d_value), DOUBLE, NULL, NULL); break;
+                case LESS_THAN_EQUAL:       return new Expression(new double(left_d_value <= right_d_value), DOUBLE, NULL, NULL); break;
+                case GREATER_THAN:          return new Expression(new double(left_d_value > right_d_value), DOUBLE, NULL, NULL); break;
+                case GREATER_THAN_EQUAL:    return new Expression(new double(left_d_value >= right_d_value), DOUBLE, NULL, NULL); break;
+                // UNARY
+                case SQRT:                  return new Expression(new double(sqrt(  left_d_value)), DOUBLE, NULL, NULL); break;
+                case ABS:                   return new Expression(new double(abs(   left_d_value)), DOUBLE, NULL, NULL);  break;
+                case FLOOR:                 return new Expression(new double(floor( left_d_value)), DOUBLE, NULL, NULL); break;
+                case UNARY_MINUS:           return new Expression(new double(-      left_d_value), DOUBLE, NULL, NULL);  break;
+                case NOT:                   return new Expression(new double(!      left_d_value), DOUBLE, NULL, NULL);  break;
+                // TRIG
+                case SIN:                   return new Expression(new double(sin(left_d_value*RADIAN_MULTIPLIER)), DOUBLE, NULL, NULL); break;
+                case COS: 					return new Expression(new double(cos(left_d_value*RADIAN_MULTIPLIER)), DOUBLE, NULL, NULL); break;
+                case TAN: 					return new Expression(new double(tan(left_d_value*RADIAN_MULTIPLIER)), DOUBLE, NULL, NULL); break;
+                case ASIN:					return new Expression(new double(asin(left_d_value)*DEGREE_MULTIPLIER), DOUBLE, NULL, NULL); break;
+                case ACOS:					return new Expression(new double(acos(left_d_value)*DEGREE_MULTIPLIER), DOUBLE, NULL, NULL); break;
+                case ATAN:					return new Expression(new double(atan(left_d_value)*DEGREE_MULTIPLIER), DOUBLE, NULL, NULL); break;
+                default: cout << "Invalid operation on DOUBLE\n"; break;
+            }
+            break;
+        }
+        case STRING: {
+            string left_s_value;
+            string right_s_value;
+            left_s_value = *((string*)(left->evaluate()->value));
+            if (right)
+                right_s_value = *((string*)(right->evaluate()->value));
+            switch (op_type) {
+                case PLUS: return new Expression(new string(left_s_value + right_s_value), STRING, NULL, NULL); break;
+                default: cout << "Invalid operation on STRING\n";  break;
+            }
+            break;
+        }
+        default: cout << "Operator type broken\n"; break;
+    }
+
+    return this;
+}

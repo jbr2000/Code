@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Acorn Hall</key>
+	<dict>
+		<key>xCoordinate</key>
+		<integer>1050</integer>
+		<key>yCoordinate</key>
+		<integer>1825</integer>
+	</dict>
+	<key>Andalos</key>
+	<dict>
+		<key>xCoordinate</key>
+		<integer>2096</integer>
+		<key>yCoordinate</key>
+		<integer>1907</integer>
+	</dict>
+	<key>Antlers</key>
+	<dict>
+		<key>xCoordinate</key>
+		<integer>1372</integer>
+		<key>yCoordinate</key>
+		<integer>1910</integer>
+	</dict>
+</dict>
+</plist>

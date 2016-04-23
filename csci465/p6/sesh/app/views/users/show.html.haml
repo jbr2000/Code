@@ -1,0 +1,15 @@
+%h1= @user.name
+
+%h3= @user.quote
+
+- unless @upcoming_events.empty?
+  %h2 Upcoming Events
+  %ul
+    - @upcoming_events.each do |event|
+      %li= link_to event.title, event
+
+- unless @past_events.empty?
+  %h2 Past Events
+  %ul
+    - @past_events.each do |event|
+      %li= link_to event.title, event

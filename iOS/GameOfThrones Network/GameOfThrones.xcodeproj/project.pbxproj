@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE2AE2F817270B2400F0395D /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2AE2F717270B2400F0395D /* TableViewController.m */; };
+		DE2AE2FB17270B9E00F0395D /* CharactersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2AE2FA17270B9E00F0395D /* CharactersTableViewController.m */; };
+		DE2AE2FE17270D7300F0395D /* TableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2AE2FD17270D7300F0395D /* TableCell.m */; };
+		DE2AE3111727398900F0395D /* InfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE2AE3101727398900F0395D /* InfoTableViewController.m */; };
+		DE3260D917387BA600B7C71D /* BattlesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DE3260D817387BA600B7C71D /* BattlesTableViewController.m */; };
+		DE32F56B1730CBE6004D859A /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DE32F56A1730CBE6004D859A /* libxml2.dylib */; };
+		DE34BF381730D4FA00F84FD5 /* HTMLTagRemover.m in Sources */ = {isa = PBXBuildFile; fileRef = DE34BF371730D4FA00F84FD5 /* HTMLTagRemover.m */; };
+		DE710CD017220AA4004385B2 /* WikiFetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = DE710CCF17220AA4004385B2 /* WikiFetcher.m */; };
+		DE8DA099172AF7F900A945CD /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8DA096172AF7F900A945CD /* HTMLNode.m */; };
+		DE8DA09A172AF7F900A945CD /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = DE8DA098172AF7F900A945CD /* HTMLParser.m */; };
+		DEB001B917319E9C002FCBA5 /* WesterosAndEssosMap.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DEB001B817319E9C002FCBA5 /* WesterosAndEssosMap.jpg */; };
+		DEB001BC1731A8C9002FCBA5 /* LocationsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB001BB1731A8C9002FCBA5 /* LocationsTableViewController.m */; };
+		DEDBA4A11720F20B003CB470 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDBA4A01720F20B003CB470 /* UIKit.framework */; };
+		DEDBA4A31720F20B003CB470 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDBA4A21720F20B003CB470 /* Foundation.framework */; };
+		DEDBA4A51720F20B003CB470 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEDBA4A41720F20B003CB470 /* CoreGraphics.framework */; };
+		DEDBA4AB1720F20B003CB470 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEDBA4A91720F20B003CB470 /* InfoPlist.strings */; };
+		DEDBA4AD1720F20B003CB470 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDBA4AC1720F20B003CB470 /* main.m */; };
+		DEDBA4B11720F20B003CB470 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEDBA4B01720F20B003CB470 /* AppDelegate.m */; };
+		DEDBA4B31720F20B003CB470 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DEDBA4B21720F20B003CB470 /* Default.png */; };
+		DEDBA4B51720F20B003CB470 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEDBA4B41720F20B003CB470 /* Default@2x.png */; };
+		DEDBA4B71720F20C003CB470 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEDBA4B61720F20C003CB470 /* Default-568h@2x.png */; };
+		DEDBA4BA1720F20C003CB470 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEDBA4B81720F20C003CB470 /* MainStoryboard.storyboard */; };
+		DEEA50881733841F0065DBA6 /* Locations.plist in Resources */ = {isa = PBXBuildFile; fileRef = DEEA50871733841F0065DBA6 /* Locations.plist */; };
+		DEEA508B173385350065DBA6 /* CharacterInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEA508A173385350065DBA6 /* CharacterInfoTableViewController.m */; };
+		DEEA508F173386010065DBA6 /* LocationInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEEA508E173386010065DBA6 /* LocationInfoTableViewController.m */; };
+		DEF57C9C1733A0F90036428E /* Claymore@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF57C9A1733A0F90036428E /* Claymore@2x.png */; };
+		DEF57C9D1733A0F90036428E /* Claymore.png in Resources */ = {isa = PBXBuildFile; fileRef = DEF57C9B1733A0F90036428E /* Claymore.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DE2AE2F617270B2400F0395D /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		DE2AE2F717270B2400F0395D /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		DE2AE2F917270B9E00F0395D /* CharactersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharactersTableViewController.h; sourceTree = "<group>"; };
+		DE2AE2FA17270B9E00F0395D /* CharactersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharactersTableViewController.m; sourceTree = "<group>"; };
+		DE2AE2FC17270D7300F0395D /* TableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableCell.h; sourceTree = "<group>"; };
+		DE2AE2FD17270D7300F0395D /* TableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableCell.m; sourceTree = "<group>"; };
+		DE2AE30F1727398900F0395D /* InfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoTableViewController.h; sourceTree = "<group>"; };
+		DE2AE3101727398900F0395D /* InfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoTableViewController.m; sourceTree = "<group>"; };
+		DE3260D717387BA600B7C71D /* BattlesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BattlesTableViewController.h; sourceTree = "<group>"; };
+		DE3260D817387BA600B7C71D /* BattlesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BattlesTableViewController.m; sourceTree = "<group>"; };
+		DE32F56A1730CBE6004D859A /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		DE34BF361730D4FA00F84FD5 /* HTMLTagRemover.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLTagRemover.h; sourceTree = "<group>"; };
+		DE34BF371730D4FA00F84FD5 /* HTMLTagRemover.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLTagRemover.m; sourceTree = "<group>"; };
+		DE710CCE17220AA4004385B2 /* WikiFetcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WikiFetcher.h; sourceTree = "<group>"; };
+		DE710CCF17220AA4004385B2 /* WikiFetcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WikiFetcher.m; sourceTree = "<group>"; };
+		DE8DA095172AF7F900A945CD /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNode.h; sourceTree = "<group>"; };
+		DE8DA096172AF7F900A945CD /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLNode.m; sourceTree = "<group>"; };
+		DE8DA097172AF7F900A945CD /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
+		DE8DA098172AF7F900A945CD /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
+		DEB001B817319E9C002FCBA5 /* WesterosAndEssosMap.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = WesterosAndEssosMap.jpg; path = ../WesterosAndEssosMap.jpg; sourceTree = "<group>"; };
+		DEB001BA1731A8C9002FCBA5 /* LocationsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationsTableViewController.h; sourceTree = "<group>"; };
+		DEB001BB1731A8C9002FCBA5 /* LocationsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationsTableViewController.m; sourceTree = "<group>"; };
+		DEDBA49D1720F20B003CB470 /* GameOfThrones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameOfThrones.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDBA4A01720F20B003CB470 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DEDBA4A21720F20B003CB470 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DEDBA4A41720F20B003CB470 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		DEDBA4A81720F20B003CB470 /* GameOfThrones-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GameOfThrones-Info.plist"; sourceTree = "<group>"; };
+		DEDBA4AA1720F20B003CB470 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DEDBA4AC1720F20B003CB470 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEDBA4AE1720F20B003CB470 /* GameOfThrones-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GameOfThrones-Prefix.pch"; sourceTree = "<group>"; };
+		DEDBA4AF1720F20B003CB470 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEDBA4B01720F20B003CB470 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEDBA4B21720F20B003CB470 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DEDBA4B41720F20B003CB470 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		DEDBA4B61720F20C003CB470 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		DEDBA4B91720F20C003CB470 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		DEEA50871733841F0065DBA6 /* Locations.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Locations.plist; sourceTree = "<group>"; };
+		DEEA5089173385350065DBA6 /* CharacterInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterInfoTableViewController.h; sourceTree = "<group>"; };
+		DEEA508A173385350065DBA6 /* CharacterInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterInfoTableViewController.m; sourceTree = "<group>"; };
+		DEEA508D173386010065DBA6 /* LocationInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationInfoTableViewController.h; sourceTree = "<group>"; };
+		DEEA508E173386010065DBA6 /* LocationInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationInfoTableViewController.m; sourceTree = "<group>"; };
+		DEF57C9A1733A0F90036428E /* Claymore@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Claymore@2x.png"; path = "../Claymore@2x.png"; sourceTree = "<group>"; };
+		DEF57C9B1733A0F90036428E /* Claymore.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Claymore.png; path = ../Claymore.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEDBA49A1720F20B003CB470 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE32F56B1730CBE6004D859A /* libxml2.dylib in Frameworks */,
+				DEDBA4A11720F20B003CB470 /* UIKit.framework in Frameworks */,
+				DEDBA4A31720F20B003CB470 /* Foundation.framework in Frameworks */,
+				DEDBA4A51720F20B003CB470 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE2AE3011727137200F0395D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				DEF57C9A1733A0F90036428E /* Claymore@2x.png */,
+				DEF57C9B1733A0F90036428E /* Claymore.png */,
+				DEB001B817319E9C002FCBA5 /* WesterosAndEssosMap.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		DE2AE305172713C700F0395D /* TableView Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DE2AE2F917270B9E00F0395D /* CharactersTableViewController.h */,
+				DE2AE2FA17270B9E00F0395D /* CharactersTableViewController.m */,
+				DEB001BA1731A8C9002FCBA5 /* LocationsTableViewController.h */,
+				DEB001BB1731A8C9002FCBA5 /* LocationsTableViewController.m */,
+				DE3260D717387BA600B7C71D /* BattlesTableViewController.h */,
+				DE3260D817387BA600B7C71D /* BattlesTableViewController.m */,
+			);
+			name = "TableView Extensions";
+			sourceTree = "<group>";
+		};
+		DE710CC917220875004385B2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DEDBA4B81720F20C003CB470 /* MainStoryboard.storyboard */,
+				DE2AE2FC17270D7300F0395D /* TableCell.h */,
+				DE2AE2FD17270D7300F0395D /* TableCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DE710CCA1722087B004385B2 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DE2AE30F1727398900F0395D /* InfoTableViewController.h */,
+				DE2AE3101727398900F0395D /* InfoTableViewController.m */,
+				DEEA508C1733853A0065DBA6 /* InfoTableView Extensions */,
+				DE2AE2F617270B2400F0395D /* TableViewController.h */,
+				DE2AE2F717270B2400F0395D /* TableViewController.m */,
+				DE2AE305172713C700F0395D /* TableView Extensions */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DE710CD117220AA9004385B2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DE8DA09B172AF7FF00A945CD /* HTML Parsing */,
+				DE710CCE17220AA4004385B2 /* WikiFetcher.h */,
+				DE710CCF17220AA4004385B2 /* WikiFetcher.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DE8DA09B172AF7FF00A945CD /* HTML Parsing */ = {
+			isa = PBXGroup;
+			children = (
+				DE34BF361730D4FA00F84FD5 /* HTMLTagRemover.h */,
+				DE34BF371730D4FA00F84FD5 /* HTMLTagRemover.m */,
+				DE8DA095172AF7F900A945CD /* HTMLNode.h */,
+				DE8DA096172AF7F900A945CD /* HTMLNode.m */,
+				DE8DA097172AF7F900A945CD /* HTMLParser.h */,
+				DE8DA098172AF7F900A945CD /* HTMLParser.m */,
+			);
+			name = "HTML Parsing";
+			sourceTree = "<group>";
+		};
+		DEDBA4941720F20B003CB470 = {
+			isa = PBXGroup;
+			children = (
+				DEDBA4A61720F20B003CB470 /* GameOfThrones */,
+				DEDBA49F1720F20B003CB470 /* Frameworks */,
+				DEDBA49E1720F20B003CB470 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEDBA49E1720F20B003CB470 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEDBA49D1720F20B003CB470 /* GameOfThrones.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEDBA49F1720F20B003CB470 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DE32F56A1730CBE6004D859A /* libxml2.dylib */,
+				DEDBA4A01720F20B003CB470 /* UIKit.framework */,
+				DEDBA4A21720F20B003CB470 /* Foundation.framework */,
+				DEDBA4A41720F20B003CB470 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEDBA4A61720F20B003CB470 /* GameOfThrones */ = {
+			isa = PBXGroup;
+			children = (
+				DE710CC917220875004385B2 /* Views */,
+				DE710CD117220AA9004385B2 /* Model */,
+				DE710CCA1722087B004385B2 /* Controllers */,
+				DEDBA4A71720F20B003CB470 /* Supporting Files */,
+			);
+			path = GameOfThrones;
+			sourceTree = "<group>";
+		};
+		DEDBA4A71720F20B003CB470 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEEA50871733841F0065DBA6 /* Locations.plist */,
+				DE2AE3011727137200F0395D /* Images */,
+				DEDBA4AF1720F20B003CB470 /* AppDelegate.h */,
+				DEDBA4B01720F20B003CB470 /* AppDelegate.m */,
+				DEDBA4A81720F20B003CB470 /* GameOfThrones-Info.plist */,
+				DEDBA4A91720F20B003CB470 /* InfoPlist.strings */,
+				DEDBA4AC1720F20B003CB470 /* main.m */,
+				DEDBA4AE1720F20B003CB470 /* GameOfThrones-Prefix.pch */,
+				DEDBA4B21720F20B003CB470 /* Default.png */,
+				DEDBA4B41720F20B003CB470 /* Default@2x.png */,
+				DEDBA4B61720F20C003CB470 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEEA508C1733853A0065DBA6 /* InfoTableView Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DEEA5089173385350065DBA6 /* CharacterInfoTableViewController.h */,
+				DEEA508A173385350065DBA6 /* CharacterInfoTableViewController.m */,
+				DEEA508D173386010065DBA6 /* LocationInfoTableViewController.h */,
+				DEEA508E173386010065DBA6 /* LocationInfoTableViewController.m */,
+			);
+			name = "InfoTableView Extensions";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEDBA49C1720F20B003CB470 /* GameOfThrones */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEDBA4C01720F20C003CB470 /* Build configuration list for PBXNativeTarget "GameOfThrones" */;
+			buildPhases = (
+				DEDBA4991720F20B003CB470 /* Sources */,
+				DEDBA49A1720F20B003CB470 /* Frameworks */,
+				DEDBA49B1720F20B003CB470 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GameOfThrones;
+			productName = GameOfThrones;
+			productReference = DEDBA49D1720F20B003CB470 /* GameOfThrones.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEDBA4951720F20B003CB470 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Spencer McWilliams";
+			};
+			buildConfigurationList = DEDBA4981720F20B003CB470 /* Build configuration list for PBXProject "GameOfThrones" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DEDBA4941720F20B003CB470;
+			productRefGroup = DEDBA49E1720F20B003CB470 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEDBA49C1720F20B003CB470 /* GameOfThrones */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEDBA49B1720F20B003CB470 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDBA4AB1720F20B003CB470 /* InfoPlist.strings in Resources */,
+				DEDBA4B31720F20B003CB470 /* Default.png in Resources */,
+				DEDBA4B51720F20B003CB470 /* Default@2x.png in Resources */,
+				DEDBA4B71720F20C003CB470 /* Default-568h@2x.png in Resources */,
+				DEDBA4BA1720F20C003CB470 /* MainStoryboard.storyboard in Resources */,
+				DEB001B917319E9C002FCBA5 /* WesterosAndEssosMap.jpg in Resources */,
+				DEEA50881733841F0065DBA6 /* Locations.plist in Resources */,
+				DEF57C9C1733A0F90036428E /* Claymore@2x.png in Resources */,
+				DEF57C9D1733A0F90036428E /* Claymore.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEDBA4991720F20B003CB470 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEDBA4AD1720F20B003CB470 /* main.m in Sources */,
+				DEDBA4B11720F20B003CB470 /* AppDelegate.m in Sources */,
+				DE710CD017220AA4004385B2 /* WikiFetcher.m in Sources */,
+				DE2AE2F817270B2400F0395D /* TableViewController.m in Sources */,
+				DE2AE2FB17270B9E00F0395D /* CharactersTableViewController.m in Sources */,
+				DE2AE2FE17270D7300F0395D /* TableCell.m in Sources */,
+				DE2AE3111727398900F0395D /* InfoTableViewController.m in Sources */,
+				DE8DA099172AF7F900A945CD /* HTMLNode.m in Sources */,
+				DE8DA09A172AF7F900A945CD /* HTMLParser.m in Sources */,
+				DE34BF381730D4FA00F84FD5 /* HTMLTagRemover.m in Sources */,
+				DEB001BC1731A8C9002FCBA5 /* LocationsTableViewController.m in Sources */,
+				DEEA508B173385350065DBA6 /* CharacterInfoTableViewController.m in Sources */,
+				DEEA508F173386010065DBA6 /* LocationInfoTableViewController.m in Sources */,
+				DE3260D917387BA600B7C71D /* BattlesTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEDBA4A91720F20B003CB470 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEDBA4AA1720F20B003CB470 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		DEDBA4B81720F20C003CB470 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEDBA4B91720F20C003CB470 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEDBA4BE1720F20C003CB470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DEDBA4BF1720F20C003CB470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEDBA4C11720F20C003CB470 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameOfThrones/GameOfThrones-Prefix.pch";
+				"HEADER_SEARCH_PATHS[arch=*]" = /usr/include/libxml2;
+				INFOPLIST_FILE = "GameOfThrones/GameOfThrones-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		DEDBA4C21720F20C003CB470 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GameOfThrones/GameOfThrones-Prefix.pch";
+				INFOPLIST_FILE = "GameOfThrones/GameOfThrones-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEDBA4981720F20B003CB470 /* Build configuration list for PBXProject "GameOfThrones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDBA4BE1720F20C003CB470 /* Debug */,
+				DEDBA4BF1720F20C003CB470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEDBA4C01720F20C003CB470 /* Build configuration list for PBXNativeTarget "GameOfThrones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEDBA4C11720F20C003CB470 /* Debug */,
+				DEDBA4C21720F20C003CB470 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEDBA4951720F20B003CB470 /* Project object */;
+}

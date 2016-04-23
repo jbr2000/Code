@@ -1,0 +1,29 @@
+-if notice
+  .col-md-6.col-md-offset-3.alert.alert-success.text-center
+    =notice
+  <br/>
+  <br/>
+  <br/>
+    
+=link_to(raw("<span class=\"glyphicon glyphicon-plus\"></span> New"), new_image_path, class: 'btn btn-default')
+
+%h1 Your Images
+.table
+  -@user_images.each do |image|
+    .tr.td{:style => "padding: 3px"}
+      =link_to image_tag(root_url + "/images/" + image.filename, size: "100x100", alt: image.filename, class: 'img-thumbnail'), image_path(image)
+
+%h1 Accessible Images
+.table
+  -@accessible_images.each do |image|
+    .tr.td{:style => "padding: 3px"}
+      =link_to image_tag(root_url + "/images/" + image.filename, size: "100x100", alt: image.filename, class: 'img-thumbnail'), image_path(image)
+
+%h1 Public Images
+.table
+  -@public_images.each do |image|
+    .tr.td{:style => "padding: 3px"}
+      =link_to image_tag(root_url + "/images/" + image.filename, size: "100x100", alt: image.filename, class: 'img-thumbnail'), image_path(image)
+
+<br>
+

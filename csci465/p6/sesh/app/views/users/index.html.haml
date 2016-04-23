@@ -1,0 +1,13 @@
+%h1 User Index
+%table.table
+  %thead
+    %tr
+      %td NAME
+      %td EMAIL
+      %td PROFILE PIC
+  %tbody
+    - @User.all.each do |user|
+      %tr
+        %td= user.name
+        %td= user.email
+        %td= image_tag root_url + "/images/users/" + user.profile_pic, class: "user-profile-thumbnail"

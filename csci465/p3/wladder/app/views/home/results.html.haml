@@ -1,0 +1,13 @@
+.container
+  .jumbotron
+    %h1.text-center Results
+    - if legal(@words)
+      %h3.text-center You Won!
+    - else
+      %h3.text-center You Lost!
+  .col-md-4.col-md-offset-4
+    = form_tag do
+      - @words.each do |w|
+        = label_tag nil, w.to_s, class: "form-control"
+        <br />
+    = button_to "Play Again", '/index', method: 'get', class: "btn btn-primary form-control"
